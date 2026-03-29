@@ -144,7 +144,11 @@ def update_data_js(new_session, data_js_path):
     if idx == -1:
         print("ERROR: data.js에서 ]; 를 찾을 수 없습니다.")
         return False
-    new_content = content[:idx].rstrip() + ',\n' + session_indented + '\n];\n'
+    before = content[:idx].rstrip()
+    # 이미 쉼표로 끝나면 추가하지 않음 (이중 쉼표 방지)
+    if before.endswith(','):
+        before = before[:-1]
+    new_content = before + ',\n' + session_indented + '\n];\n'
     Path(data_js_path).write_text(new_content, encoding='utf-8')
     return True
 
