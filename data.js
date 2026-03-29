@@ -26,7 +26,7 @@ window.VOCAB_DATA = [
         ]
       }
     ]
-  },,
+  },
   {
     "id": "학교_20260329_WordList1618",
     "source": "학원",
