@@ -28,8 +28,8 @@ window.VOCAB_DATA = [
     ]
   },
   {
-    "id": "학교_20260329_WordList1618",
-    "source": "학교",
+    "id": "학원_20260329_WordList1618",
+    "source": "학원",
     "date": "2026-03-29",
     "lesson": "Word List 16–18",
     "groups": [
