@@ -412,7 +412,7 @@ function showSessions(source) {
 //  FLASHCARD
 // ══════════════════════════════════════════
 function startSession(sessionId) {
-  currentSession = (window.VOCAB_DATA || []).find(s => s.id === sessionId);
+  currentSession = (window.VOCAB_DATA || []).find(s => s && s.id === sessionId);
   if (!currentSession) return;
 
   currentWords = currentSession.groups.flatMap(g => g.words);
