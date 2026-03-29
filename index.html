@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>우지언 영어 단어장</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #e8f0fe 0%, #fce4ec 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.app { width: 100%; max-width: 460px; }
+
+/* ── SCREENS ── */
+.screen { display: none; }
+.screen.active { display: block; }
+
+/* ── HOME ── */
+.home-header { text-align: center; padding: 40px 0 36px; }
+.home-header .emoji { font-size: 56px; display: block; margin-bottom: 8px; }
+.home-header h1 { font-size: 26px; font-weight: 800; color: #222; }
+.home-header p  { color: #888; font-size: 15px; margin-top: 4px; }
+
+.source-btn {
+  display: flex; align-items: center; gap: 14px;
+  width: 100%; padding: 22px 24px; margin-bottom: 14px;
+  border: none; border-radius: 18px; font-size: 20px; font-weight: 700;
+  cursor: pointer; transition: transform 0.12s, box-shadow 0.12s;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12); color: white;
+}
+.source-btn:active { transform: scale(0.97); }
+.source-btn .icon  { font-size: 28px; }
+.source-btn .label { flex: 1; text-align: left; }
+.source-btn .count { font-size: 14px; font-weight: 400; opacity: 0.85; }
+.btn-hakwon { background: linear-gradient(135deg, #7b1fa2, #4a148c); }
+.btn-hakgyo { background: linear-gradient(135deg, #1565c0, #0d47a1); }
+
+/* ── SESSION LIST ── */
+.top-bar {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 20px; padding-top: 8px;
+}
+.back-btn {
+  background: white; border: none; border-radius: 10px;
+  width: 38px; height: 38px; font-size: 18px; cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex; align-items: center; justify-content: center;
+}
+.top-bar h2 { font-size: 20px; font-weight: 700; color: #222; }
+
+.session-card {
+  background: white; border-radius: 14px; padding: 18px 20px; margin-bottom: 12px;
+  cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.1s; display: flex; align-items: center; gap: 14px;
+}
+.session-card:active { transform: scale(0.98); }
+.session-card .session-icon { font-size: 30px; }
+.session-card .session-info { flex: 1; }
+.session-date  { font-size: 12px; color: #aaa; margin-bottom: 2px; }
+.session-name  { font-size: 17px; font-weight: 700; color: #222; }
+.session-count { font-size: 13px; color: #888; margin-top: 2px; }
+.session-arrow { font-size: 18px; color: #ccc; }
+.no-sessions { text-align: center; color: #aaa; padding: 60px 20px; font-size: 16px; }
+
+/* ── FLASHCARD ── */
+.progress-row {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
+}
+.progress-bar-wrap {
+  flex: 1; background: #e0e0e0; border-radius: 6px; height: 8px; overflow: hidden;
+}
+.progress-bar {
+  background: linear-gradient(90deg, #7b1fa2, #ab47bc);
+  height: 8px; border-radius: 6px; transition: width 0.4s ease;
+}
+.progress-text { font-size: 13px; color: #888; white-space: nowrap; }
+.group-name { font-size: 12px; color: #aaa; text-align: center; margin-bottom: 14px; }
+
+/* Card */
+.card {
+  background: white; border-radius: 24px; padding: 28px 24px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.1); margin-bottom: 14px;
+}
+
+/* Question section */
+.card-question { text-align: center; padding-bottom: 20px; }
+.question-korean { font-size: 30px; font-weight: 800; color: #222; margin-bottom: 8px; }
+.question-definition { font-size: 15px; color: #888; line-height: 1.5; }
+
+/* Dashed separator */
+.card-sep { border: none; border-top: 2px dashed #eee; margin: 0 0 20px; }
+
+/* Word cover — tap to reveal */
+.word-cover {
+  background: #f8f8f8; border: 2px dashed #ddd; border-radius: 16px;
+  padding: 28px 20px; text-align: center; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s; user-select: none;
+}
+.word-cover:active { background: #f0f0f0; border-color: #bbb; }
+.cover-icon { font-size: 32px; margin-bottom: 8px; }
+.cover-text { font-size: 15px; color: #bbb; font-weight: 600; }
+
+/* Word revealed */
+.word-revealed { text-align: center; display: none; }
+.word-revealed.visible { display: block; }
+.english-word {
+  font-size: 52px; line-height: 1.2; color: #1a237e;
+  font-weight: 800; letter-spacing: 2px; margin-bottom: 8px;
+}
+.pronunciation { font-size: 18px; color: #999; letter-spacing: 1px; margin-bottom: 16px; }
+.example-sentence {
+  font-size: 14px; color: #555; line-height: 1.7;
+  background: #f5f5f5; border-radius: 12px; padding: 12px 16px;
+  text-align: left; margin-top: 4px;
+}
+.example-sentence .highlight { font-weight: 800; color: #7b1fa2; text-decoration: underline; }
+
+/* Hint panel */
+.hint-panel {
+  background: #e8eaf6; border: 1.5px solid #9fa8da;
+  border-radius: 16px; padding: 14px 18px; margin-bottom: 14px;
+  display: none; text-align: center;
+}
+.hint-panel.visible { display: block; }
+.hint-label { color: #3949ab; font-size: 12px; font-weight: 600; margin-bottom: 4px; }
+.hint-letters { font-size: 24px; color: #1a237e; font-weight: 700; letter-spacing: 6px; margin-top: 6px; font-family: monospace; }
+
+/* Buttons */
+.btn-row { display: flex; gap: 10px; margin-bottom: 10px; }
+.btn {
+  flex: 1; padding: 15px 10px; border: none; border-radius: 14px;
+  font-size: 16px; font-weight: 600; cursor: pointer;
+  transition: transform 0.1s, opacity 0.1s;
+}
+.btn:active { transform: scale(0.97); opacity: 0.9; }
+.btn-sound { background: #e3f2fd; color: #1565c0; }
+.btn-hint  { background: #e8eaf6; color: #3949ab; }
+
+.answer-btns { display: none; }
+.answer-btns.visible { display: flex; gap: 10px; margin-bottom: 10px; }
+.btn-correct { background: #e8f5e9; color: #2e7d32; font-size: 18px; }
+.btn-wrong   { background: #ffebee; color: #c62828; font-size: 18px; }
+
+.nav-row { display: flex; gap: 10px; margin-top: 4px; }
+.btn-nav {
+  flex: 1; padding: 13px; border-radius: 14px;
+  font-size: 15px; font-weight: 600;
+  border: none; cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+}
+.btn-nav:active { opacity: 0.8; }
+.btn-prev { background: #f5f5f5; color: #aaa; }
+.btn-prev:disabled { opacity: 0.3; cursor: default; }
+.btn-skip { background: #f5f5f5; color: #aaa; }
+
+/* Result */
+.result-wrap { text-align: center; padding: 40px 20px; }
+.result-emoji { font-size: 72px; margin-bottom: 16px; }
+.result-score { font-size: 36px; font-weight: 800; color: #222; margin-bottom: 8px; }
+.result-msg   { font-size: 17px; color: #666; margin-bottom: 36px; line-height: 1.5; }
+.btn-full {
+  display: block; width: 100%; padding: 17px; border-radius: 14px;
+  font-size: 17px; font-weight: 700; border: none; cursor: pointer;
+  margin-bottom: 12px; transition: transform 0.1s;
+}
+.btn-full:active { transform: scale(0.98); }
+.btn-retry  { background: #7b1fa2; color: white; }
+.btn-home-r { background: #f0f0f0; color: #444; }
+
+/* Status dots */
+.status-dots-wrap { overflow-x: auto; padding: 4px 0 10px; scrollbar-width: none; }
+.status-dots-wrap::-webkit-scrollbar { display: none; }
+.status-dots {
+  display: flex; gap: 6px; width: max-content; min-width: 100%;
+  justify-content: center; flex-wrap: wrap;
+}
+.status-dot {
+  width: 22px; height: 22px; border-radius: 50%;
+  font-size: 11px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.15s, background 0.2s;
+  border: 2px solid transparent;
+}
+.status-dot.pending  { background: #e0e0e0; color: #aaa; }
+.status-dot.correct  { background: #c8e6c9; color: #2e7d32; }
+.status-dot.wrong    { background: #ffcdd2; color: #c62828; }
+.status-dot.current  { border-color: #7b1fa2; transform: scale(1.2); }
+
+/* Result table */
+.result-table-wrap { text-align: left; margin: 0 0 20px; }
+.result-table-wrap h3 {
+  font-size: 14px; font-weight: 700; color: #555;
+  margin-bottom: 12px; text-align: center;
+}
+.result-table {
+  width: 100%; border-collapse: collapse;
+  background: white; border-radius: 14px; overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07); font-size: 14px;
+}
+.result-table th {
+  background: #f5f5f5; padding: 10px 8px;
+  font-size: 12px; color: #888; font-weight: 600;
+  text-align: center; border-bottom: 1px solid #eee;
+}
+.result-table td {
+  padding: 10px 8px; border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+.result-table tr:last-child td { border-bottom: none; }
+.rt-num    { text-align: center; color: #bbb; font-size: 12px; width: 28px; }
+.rt-word   { font-size: 16px; font-weight: 800; color: #1a237e; text-align: center; width: 110px; }
+.rt-info   { }
+.rt-pron   { font-size: 11px; color: #aaa; }
+.rt-korean { font-size: 14px; color: #444; font-weight: 600; }
+.rt-status { text-align: center; font-size: 18px; width: 36px; }
+.rt-correct { background: #f1f8f1; }
+.rt-wrong   { background: #fff5f5; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ══ HOME ══ -->
+  <div id="screen-home" class="screen active">
+    <div class="home-header">
+      <span class="emoji">📝</span>
+      <h1>영어 단어장</h1>
+      <p>우지언</p>
+    </div>
+    <button class="source-btn btn-hakwon" onclick="showSessions('학원')">
+      <span class="icon">🏫</span>
+      <span class="label">학원</span>
+      <span class="count" id="hakwon-count"></span>
+    </button>
+    <button class="source-btn btn-hakgyo" onclick="showSessions('학교')">
+      <span class="icon">📚</span>
+      <span class="label">학교</span>
+      <span class="count" id="hakgyo-count"></span>
+    </button>
+  </div>
+
+  <!-- ══ SESSION LIST ══ -->
+  <div id="screen-sessions" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" onclick="goHome()">←</button>
+      <h2 id="sessions-title"></h2>
+    </div>
+    <div id="session-list"></div>
+  </div>
+
+  <!-- ══ FLASHCARD ══ -->
+  <div id="screen-flashcard" class="screen">
+    <div class="top-bar">
+      <button class="back-btn" onclick="goSessions()">←</button>
+      <h2 id="fc-lesson-title"></h2>
+    </div>
+
+    <div class="progress-row">
+      <div class="progress-bar-wrap">
+        <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+      </div>
+      <span id="progress-text" class="progress-text"></span>
+    </div>
+
+    <div class="status-dots-wrap">
+      <div id="status-dots" class="status-dots"></div>
+    </div>
+
+    <p id="group-name" class="group-name"></p>
+
+    <div class="card">
+      <div class="card-question">
+        <div id="korean-display" class="question-korean"></div>
+        <div id="definition-display" class="question-definition"></div>
+      </div>
+      <hr class="card-sep">
+
+      <!-- Word cover — tap to reveal -->
+      <div id="word-cover" class="word-cover" onclick="revealWord()">
+        <div class="cover-icon">✏️</div>
+        <div class="cover-text">탭해서 영단어 확인하기</div>
+      </div>
+
+      <!-- Word revealed -->
+      <div id="word-revealed" class="word-revealed">
+        <div id="word-display" class="english-word"></div>
+        <div id="pronunciation-display" class="pronunciation"></div>
+        <div id="sentence-display" class="example-sentence"></div>
+      </div>
+    </div>
+
+    <!-- Hint panel -->
+    <div id="hint-panel" class="hint-panel">
+      <div class="hint-label">💡 힌트 — 첫 글자</div>
+      <div id="hint-letters" class="hint-letters"></div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-sound" onclick="playSound()">🔊 발음 듣기</button>
+      <button class="btn btn-hint"  onclick="toggleHint()">💡 힌트</button>
+    </div>
+
+    <div id="answer-btns" class="answer-btns">
+      <button class="btn btn-correct" onclick="markAnswer(true)">✓ 맞았어요</button>
+      <button class="btn btn-wrong"   onclick="markAnswer(false)">✗ 틀렸어요</button>
+    </div>
+
+    <div class="nav-row">
+      <button id="btn-prev" class="btn-nav btn-prev" onclick="goBack()">← 이전 문제</button>
+      <button id="btn-skip" class="btn-nav btn-skip" onclick="skipCard()">다음 문제 →</button>
+    </div>
+  </div>
+
+  <!-- ══ RESULT ══ -->
+  <div id="screen-result" class="screen">
+    <div class="result-wrap">
+      <div id="result-emoji" class="result-emoji"></div>
+      <div id="result-score" class="result-score"></div>
+      <div id="result-msg"   class="result-msg"></div>
+      <div id="result-table-wrap" class="result-table-wrap"></div>
+      <button class="btn-full btn-retry"  onclick="restartSession()">다시 풀기 🔄</button>
+      <button class="btn-full btn-home-r" onclick="goHome()">홈으로 🏠</button>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<script src="data.js"></script>
+<script>
+// ══════════════════════════════════════════
+//  STATE
+// ══════════════════════════════════════════
+let currentSource  = '';
+let currentSession = null;
+let currentWords   = [];
+let currentIndex   = 0;
+let results        = [];
+let hintVisible    = false;
+let wordVisible    = false;
+
+// ══════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════
+function init() {
+  updateHomeCounts();
+  if ('speechSynthesis' in window) {
+    speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+    speechSynthesis.getVoices();
+  }
+}
+
+function updateHomeCounts() {
+  const data = window.VOCAB_DATA || [];
+  const count = (src) => {
+    const sessions = data.filter(s => s.source === src);
+    const words = sessions.reduce((n, s) => n + s.groups.reduce((m, g) => m + g.words.length, 0), 0);
+    return sessions.length ? `${sessions.length}회차 · ${words}단어` : '단어 없음';
+  };
+  document.getElementById('hakwon-count').textContent = count('학원');
+  document.getElementById('hakgyo-count').textContent = count('학교');
+}
+
+// ══════════════════════════════════════════
+//  NAVIGATION
+// ══════════════════════════════════════════
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function goHome()     { updateHomeCounts(); showScreen('home'); }
+function goSessions() { showSessions(currentSource); }
+
+function showSessions(source) {
+  currentSource = source;
+  document.getElementById('sessions-title').textContent =
+    source === '학원' ? '🏫 학원 수업' : '📚 학교 수업';
+
+  const sessions = (window.VOCAB_DATA || []).filter(s => s.source === source);
+  const list = document.getElementById('session-list');
+
+  if (sessions.length === 0) {
+    list.innerHTML = '<div class="no-sessions">아직 단어가 없어요 📭<br><br>사진을 올려주시면 추가해 드릴게요!</div>';
+  } else {
+    list.innerHTML = sessions.map(s => {
+      const wordCount = s.groups.reduce((n, g) => n + g.words.length, 0);
+      const groupInfo = s.groups.map(g => g.name).join(' / ');
+      return `
+        <div class="session-card" onclick="startSession('${s.id}')">
+          <span class="session-icon">📝</span>
+          <div class="session-info">
+            <div class="session-date">${s.date} · ${groupInfo}</div>
+            <div class="session-name">${s.lesson}</div>
+            <div class="session-count">단어 ${wordCount}개</div>
+          </div>
+          <span class="session-arrow">›</span>
+        </div>`;
+    }).join('');
+  }
+  showScreen('sessions');
+}
+
+// ══════════════════════════════════════════
+//  FLASHCARD
+// ══════════════════════════════════════════
+function startSession(sessionId) {
+  currentSession = (window.VOCAB_DATA || []).find(s => s.id === sessionId);
+  if (!currentSession) return;
+
+  currentWords = currentSession.groups.flatMap(g => g.words);
+  currentIndex = 0;
+  results      = [];
+
+  document.getElementById('fc-lesson-title').textContent = currentSession.lesson;
+  initStatusDots();
+  showScreen('flashcard');
+  renderCard();
+}
+
+function renderCard() {
+  if (currentIndex >= currentWords.length) { showResult(); return; }
+
+  const word = currentWords[currentIndex];
+
+  // Find group name
+  let groupName = '';
+  for (const g of currentSession.groups) {
+    if (g.words.includes(word)) { groupName = g.name; break; }
+  }
+
+  // Reset state
+  hintVisible = false;
+  wordVisible = false;
+
+  // Fill content
+  document.getElementById('korean-display').textContent     = word.korean;
+  document.getElementById('definition-display').textContent = word.definition || '';
+  document.getElementById('word-display').textContent       = word.word;
+  document.getElementById('pronunciation-display').textContent = word.pronunciation || '';
+  document.getElementById('group-name').textContent         = groupName;
+
+  // Example sentence: highlight the vocabulary word
+  const sentenceEl = document.getElementById('sentence-display');
+  if (word.sentence) {
+    const highlighted = word.sentence.replace(
+      new RegExp(`\\b${word.word}\\b`, 'gi'),
+      m => `<span class="highlight">${m}</span>`
+    );
+    sentenceEl.innerHTML = highlighted;
+    sentenceEl.style.display = 'block';
+  } else {
+    sentenceEl.style.display = 'none';
+  }
+
+  // Show cover, hide revealed
+  document.getElementById('word-cover').style.display = 'block';
+  document.getElementById('word-revealed').classList.remove('visible');
+  document.getElementById('hint-panel').classList.remove('visible');
+  document.getElementById('answer-btns').classList.remove('visible');
+  document.getElementById('btn-prev').disabled = (currentIndex === 0);
+  document.getElementById('btn-skip').disabled = false;
+  updateStatusDots();
+
+  // Progress
+  const pct = (currentIndex / currentWords.length) * 100;
+  document.getElementById('progress-bar').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${currentWords.length}`;
+}
+
+function revealWord() {
+  if (wordVisible) return;
+  wordVisible = true;
+
+  document.getElementById('word-cover').style.display = 'none';
+  document.getElementById('word-revealed').classList.add('visible');
+  document.getElementById('answer-btns').classList.add('visible');
+  document.getElementById('btn-skip').disabled = true;
+}
+
+// ── Hint: first letter + blanks ──
+function toggleHint() {
+  hintVisible = !hintVisible;
+  const panel = document.getElementById('hint-panel');
+  if (hintVisible) {
+    const w = currentWords[currentIndex].word;
+    const hint = w[0].toUpperCase() + ' ' + '_ '.repeat(w.length - 1).trim();
+    document.getElementById('hint-letters').textContent = hint;
+    panel.classList.add('visible');
+  } else {
+    panel.classList.remove('visible');
+  }
+}
+
+// ── Sound ──
+function playSound() {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(currentWords[currentIndex].word);
+  utter.lang = 'en-SG';
+  utter.rate = 0.8;
+  const voices = speechSynthesis.getVoices();
+  const sgVoice = voices.find(v => v.lang === 'en-SG');
+  const usVoice = voices.find(v => v.lang === 'en-US');
+  const enVoice = voices.find(v => v.lang.startsWith('en'));
+  if (sgVoice) utter.voice = sgVoice;
+  else if (usVoice) utter.voice = usVoice;
+  else if (enVoice) utter.voice = enVoice;
+  speechSynthesis.speak(utter);
+}
+
+// ── Mark answer ──
+function markAnswer(correct) {
+  results[currentIndex] = correct;
+  currentIndex++;
+  renderCard();
+}
+
+// ── Skip ──
+function skipCard() {
+  if (results[currentIndex] === undefined) results[currentIndex] = false;
+  currentIndex++;
+  renderCard();
+}
+
+// ── Status dots ──
+function initStatusDots() {
+  const wrap = document.getElementById('status-dots');
+  wrap.innerHTML = currentWords.map((_, i) =>
+    `<div id="dot-${i}" class="status-dot pending">${i + 1}</div>`
+  ).join('');
+}
+
+function updateStatusDots() {
+  currentWords.forEach((_, i) => {
+    const dot = document.getElementById('dot-' + i);
+    if (!dot) return;
+    dot.className = 'status-dot';
+    if (i === currentIndex)        dot.classList.add('current', results[i] === true ? 'correct' : results[i] === false ? 'wrong' : 'pending');
+    else if (results[i] === true)  dot.classList.add('correct');
+    else if (results[i] === false) dot.classList.add('wrong');
+    else                           dot.classList.add('pending');
+  });
+}
+
+// ── Go back ──
+function goBack() {
+  if (currentIndex <= 0) return;
+  currentIndex--;
+  renderCard();
+}
+
+// ══════════════════════════════════════════
+//  RESULT
+// ══════════════════════════════════════════
+function showResult() {
+  const total        = currentWords.length;
+  const correctCount = results.filter(r => r === true).length;
+  const wrongWords   = currentWords.filter((_, i) => results[i] !== true);
+  const pct          = Math.round((correctCount / total) * 100);
+
+  let emoji, msg;
+  if (pct === 100)    { emoji = '🌟'; msg = '완벽해요! 모두 다 맞았어요!'; }
+  else if (pct >= 80) { emoji = '🎉'; msg = '잘했어요! 거의 다 맞았어요!'; }
+  else if (pct >= 60) { emoji = '👍'; msg = '좋아요! 조금만 더 연습해요!'; }
+  else if (pct >= 40) { emoji = '💪'; msg = '계속 연습하면 더 잘할 수 있어요!'; }
+  else                { emoji = '📖'; msg = '틀린 단어를 다시 복습해봐요!'; }
+
+  document.getElementById('result-emoji').textContent = emoji;
+  document.getElementById('result-score').textContent = `${correctCount} / ${total}`;
+  document.getElementById('result-msg').textContent   = msg;
+
+  const tableWrap = document.getElementById('result-table-wrap');
+  tableWrap.innerHTML = `
+    <h3>📋 전체 결과 (${correctCount}✓ ${wrongWords.length}✗)</h3>
+    <table class="result-table">
+      <thead>
+        <tr><th>#</th><th>영단어</th><th>뜻</th><th>결과</th></tr>
+      </thead>
+      <tbody>
+        ${currentWords.map((w, i) => {
+          const ok = results[i] === true;
+          return `<tr class="${ok ? 'rt-correct' : 'rt-wrong'}">
+            <td class="rt-num">${i + 1}</td>
+            <td class="rt-word">${w.word}</td>
+            <td class="rt-info">
+              <div class="rt-pron">${w.pronunciation || ''}</div>
+              <div class="rt-korean">${w.korean}</div>
+            </td>
+            <td class="rt-status">${ok ? '✅' : '❌'}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>`;
+
+  showScreen('result');
+}
+
+function restartSession() {
+  currentWords = currentSession.groups.flatMap(g => g.words);
+  currentIndex = 0; results = [];
+  initStatusDots();
+  showScreen('flashcard');
+  renderCard();
+}
+
+init();
+</script>
+</body>
+</html>
