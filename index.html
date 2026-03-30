@@ -187,6 +187,7 @@ body {
   display: flex; align-items: center; justify-content: center;
   transition: transform 0.15s, background 0.2s;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 .status-dot.pending  { background: #e0e0e0; color: #aaa; }
 .status-dot.correct  { background: #c8e6c9; color: #2e7d32; }
@@ -534,8 +535,13 @@ function skipCard() {
 function initStatusDots() {
   const wrap = document.getElementById('status-dots');
   wrap.innerHTML = currentWords.map((_, i) =>
-    `<div id="dot-${i}" class="status-dot pending">${i + 1}</div>`
+    `<div id="dot-${i}" class="status-dot pending" onclick="jumpToCard(${i})">${i + 1}</div>`
   ).join('');
+}
+
+function jumpToCard(index) {
+  currentIndex = index;
+  renderCard();
 }
 
 function updateStatusDots() {
