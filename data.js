@@ -259,5 +259,298 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260406_11OccupationsRoles",
+    "source": "학교",
+    "date": "2026-04-06",
+    "lesson": "11. Occupations & Roles",
+    "groups": [
+      {
+        "name": "Occupations & Roles",
+        "words": [
+          {
+            "word": "Architect",
+            "pronunciation": "AR-ki-tekt",
+            "korean": "건축가",
+            "definition": "건물이나 구조물을 설계하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Librarian",
+            "pronunciation": "ly-BRAIR-ee-un",
+            "korean": "사서",
+            "definition": "도서관에서 책을 관리하고 이용자를 돕는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Artist",
+            "pronunciation": "AR-tist",
+            "korean": "예술가",
+            "definition": "그림, 조각 등 예술 작품을 만드는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Electrician",
+            "pronunciation": "ih-lek-TRISH-un",
+            "korean": "전기 기술자",
+            "definition": "전기 설비를 설치하고 수리하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Soldier",
+            "pronunciation": "SOHL-jer",
+            "korean": "군인",
+            "definition": "나라를 지키기 위해 군대에서 복무하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Athlete",
+            "pronunciation": "ATH-leet",
+            "korean": "운동선수",
+            "definition": "스포츠나 운동 경기에 참가하는 전문 선수",
+            "sentence": ""
+          },
+          {
+            "word": "Neighbour",
+            "pronunciation": "NAY-ber",
+            "korean": "이웃",
+            "definition": "가까이 사는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Teacher",
+            "pronunciation": "TEE-cher",
+            "korean": "교사",
+            "definition": "학생들을 가르치는 직업을 가진 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Support",
+            "pronunciation": "suh-PORT",
+            "korean": "지원자 / 지지",
+            "definition": "다른 사람을 돕거나 지지하는 역할",
+            "sentence": ""
+          },
+          {
+            "word": "Leader",
+            "pronunciation": "LEE-der",
+            "korean": "지도자",
+            "definition": "집단이나 조직을 이끄는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Scientist",
+            "pronunciation": "SY-en-tist",
+            "korean": "과학자",
+            "definition": "과학적 연구와 실험을 하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Doctor",
+            "pronunciation": "DOK-ter",
+            "korean": "의사",
+            "definition": "병을 진단하고 치료하는 의료 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Musician",
+            "pronunciation": "myoo-ZI-shun",
+            "korean": "음악가",
+            "definition": "음악을 연주하거나 작곡하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Mechanic",
+            "pronunciation": "meh-KAN-ik",
+            "korean": "정비사",
+            "definition": "기계나 자동차를 수리하고 유지하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Officer",
+            "pronunciation": "AW-fi-ser",
+            "korean": "장교 / 경찰관",
+            "definition": "군대나 경찰에서 직위를 가진 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Audience",
+            "pronunciation": "AW-dee-uns",
+            "korean": "관객",
+            "definition": "공연이나 행사를 보거나 듣는 사람들",
+            "sentence": ""
+          },
+          {
+            "word": "Citizen",
+            "pronunciation": "SIT-ih-zen",
+            "korean": "시민",
+            "definition": "특정 나라나 도시에 속한 구성원",
+            "sentence": ""
+          },
+          {
+            "word": "Lawyer",
+            "pronunciation": "LAW-yer",
+            "korean": "변호사",
+            "definition": "법률 문제를 다루고 의뢰인을 대리하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Business",
+            "pronunciation": "BIZ-nis",
+            "korean": "사업가 / 사업",
+            "definition": "상품이나 서비스를 사고파는 활동 또는 그 역할",
+            "sentence": ""
+          },
+          {
+            "word": "Partner",
+            "pronunciation": "PART-ner",
+            "korean": "파트너 / 동업자",
+            "definition": "함께 일하거나 활동을 공유하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Engineer",
+            "pronunciation": "en-jih-NEER",
+            "korean": "엔지니어",
+            "definition": "기술과 과학을 이용해 기계나 시스템을 설계하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Manager",
+            "pronunciation": "MAN-ih-jer",
+            "korean": "관리자",
+            "definition": "조직이나 팀을 관리하고 운영하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Plumber",
+            "pronunciation": "PLUM-er",
+            "korean": "배관공",
+            "definition": "수도관이나 배관 시설을 설치하고 수리하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Pilot",
+            "pronunciation": "PY-lut",
+            "korean": "조종사",
+            "definition": "비행기나 항공기를 조종하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Referee",
+            "pronunciation": "ref-uh-REE",
+            "korean": "심판",
+            "definition": "스포츠 경기에서 규칙을 적용하고 판정하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Customer",
+            "pronunciation": "KUS-tuh-mer",
+            "korean": "고객",
+            "definition": "상품이나 서비스를 구매하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Community",
+            "pronunciation": "kuh-MYOO-nih-tee",
+            "korean": "지역 사회",
+            "definition": "같은 지역이나 관심사를 공유하는 사람들의 집단",
+            "sentence": ""
+          },
+          {
+            "word": "Volunteer",
+            "pronunciation": "vol-un-TEER",
+            "korean": "자원봉사자",
+            "definition": "보수 없이 자발적으로 일하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Service",
+            "pronunciation": "SER-vis",
+            "korean": "서비스 / 봉사",
+            "definition": "다른 사람을 위해 일하거나 제공하는 활동",
+            "sentence": ""
+          },
+          {
+            "word": "Staff",
+            "pronunciation": "STAF",
+            "korean": "직원",
+            "definition": "조직이나 회사에서 일하는 사람들",
+            "sentence": ""
+          },
+          {
+            "word": "Journalist",
+            "pronunciation": "JER-nuh-list",
+            "korean": "기자",
+            "definition": "뉴스를 취재하고 기사를 쓰는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Director",
+            "pronunciation": "dih-REK-ter",
+            "korean": "감독 / 이사",
+            "definition": "영화나 조직을 지휘하고 이끄는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Carpenter",
+            "pronunciation": "KAR-pen-ter",
+            "korean": "목수",
+            "definition": "나무를 이용해 가구나 건축물을 만드는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Astronaut",
+            "pronunciation": "AS-truh-nawt",
+            "korean": "우주비행사",
+            "definition": "우주선을 타고 우주를 탐험하는 전문가",
+            "sentence": ""
+          },
+          {
+            "word": "Coach",
+            "pronunciation": "KOHCH",
+            "korean": "코치",
+            "definition": "선수나 팀을 훈련시키고 지도하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Merchant",
+            "pronunciation": "MER-chunt",
+            "korean": "상인",
+            "definition": "물건을 사고파는 일을 하는 사람",
+            "sentence": ""
+          },
+          {
+            "word": "Government",
+            "pronunciation": "GUV-ern-ment",
+            "korean": "정부",
+            "definition": "나라를 다스리고 관리하는 기관 또는 그 역할",
+            "sentence": ""
+          },
+          {
+            "word": "Charity",
+            "pronunciation": "CHAIR-ih-tee",
+            "korean": "자선단체",
+            "definition": "도움이 필요한 사람들을 위해 활동하는 단체",
+            "sentence": ""
+          },
+          {
+            "word": "Performance",
+            "pronunciation": "per-FOR-muns",
+            "korean": "공연자 / 공연",
+            "definition": "관객 앞에서 음악, 연극 등을 선보이는 활동",
+            "sentence": ""
+          },
+          {
+            "word": "Worker",
+            "pronunciation": "WER-ker",
+            "korean": "노동자 / 근로자",
+            "definition": "일을 하는 사람, 특히 육체적 노동을 하는 사람",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
