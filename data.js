@@ -554,8 +554,8 @@ window.VOCAB_DATA = [
     ]
   },
   {
-    "id": "학교_20260412_6FoodCookingDining",
-    "source": "학교",
+    "id": "학원_20260412_6FoodCookingDining",
+    "source": "학원",
     "date": "2026-04-12",
     "lesson": "6. Food, Cooking & Dining",
     "groups": [
