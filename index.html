@@ -501,19 +501,40 @@ function toggleHint() {
 }
 
 // ── Sound ──
-function playSound() {
+// rate: 말하기 속도 (기본 1.0, 낮추면 느려짐, 높이면 빨라짐)
+// pitch: 음높이 (기본 1.0, 높일수록 젊고 또렷한 톤이 됨)
+function playSound(rate = 1.0, pitch = 1.1) {
   if (!('speechSynthesis' in window)) return;
-  speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(currentWords[currentIndex].word);
-  utter.lang = 'en-SG';
-  utter.rate = 0.8;
+  speechSynthesis.cancel(); // 진행 중인 음성 중지
+
+  const wordToSpeak = currentWords[currentIndex].word;
+  const utter = new SpeechSynthesisUtterance(wordToSpeak);
+  
+  // 1. 속도와 음높이 설정
+  utter.rate = rate;   // 속도 조절
+  utter.pitch = pitch; // 음높이 조절 (1.0~1.2 사이를 추천합니다)
+  utter.lang = 'en-US'; // 대중적이고 또렷한 미국 영어를 기본으로 설정
+
+  // 2. 목소리(Voice) 선택 로직 개선
   const voices = speechSynthesis.getVoices();
-  const sgVoice = voices.find(v => v.lang === 'en-SG');
+  
+  // Chrome의 Google 음성이나 Apple 기기의 고품질 음성을 우선적으로 찾습니다.
+  const premiumVoice = voices.find(v => v.name.includes('Google US English') || v.name.includes('Samantha') || v.name.includes('Daniel'));
   const usVoice = voices.find(v => v.lang === 'en-US');
+  const sgVoice = voices.find(v => v.lang === 'en-SG');
   const enVoice = voices.find(v => v.lang.startsWith('en'));
-  if (sgVoice) utter.voice = sgVoice;
-  else if (usVoice) utter.voice = usVoice;
-  else if (enVoice) utter.voice = enVoice;
+
+  // 고품질 음성 -> 미국 영어 -> 싱가포르 영어 -> 기타 영어 순으로 할당
+  if (premiumVoice) {
+    utter.voice = premiumVoice;
+  } else if (usVoice) {
+    utter.voice = usVoice;
+  } else if (sgVoice) {
+    utter.voice = sgVoice;
+  } else if (enVoice) {
+    utter.voice = enVoice;
+  }
+
   speechSynthesis.speak(utter);
 }
 
