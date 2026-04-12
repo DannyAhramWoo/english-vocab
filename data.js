@@ -552,5 +552,298 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260412_6FoodCookingDining",
+    "source": "학교",
+    "date": "2026-04-12",
+    "lesson": "6. Food, Cooking & Dining",
+    "groups": [
+      {
+        "name": "Food, Cooking & Dining",
+        "words": [
+          {
+            "word": "Restaurant",
+            "pronunciation": "RES-tuh-ront",
+            "korean": "식당",
+            "definition": "음식을 주문하고 먹을 수 있는 장소",
+            "sentence": ""
+          },
+          {
+            "word": "Ingredient",
+            "pronunciation": "in-GREE-dee-ent",
+            "korean": "재료",
+            "definition": "음식을 만들 때 사용되는 각각의 재료",
+            "sentence": ""
+          },
+          {
+            "word": "Breakfast",
+            "pronunciation": "BREK-fust",
+            "korean": "아침 식사",
+            "definition": "하루 중 아침에 먹는 첫 번째 식사",
+            "sentence": ""
+          },
+          {
+            "word": "Buffet",
+            "pronunciation": "buh-FAY",
+            "korean": "뷔페",
+            "definition": "여러 음식을 차려놓고 원하는 만큼 가져다 먹는 식사 방식",
+            "sentence": ""
+          },
+          {
+            "word": "Chocolate",
+            "pronunciation": "CHOK-uh-lit",
+            "korean": "초콜릿",
+            "definition": "카카오로 만든 달콤한 과자 또는 음료",
+            "sentence": ""
+          },
+          {
+            "word": "Vegetable",
+            "pronunciation": "VEJ-tuh-bul",
+            "korean": "채소",
+            "definition": "건강에 좋은 식물성 식품으로 요리나 샐러드에 사용됨",
+            "sentence": ""
+          },
+          {
+            "word": "Bitter",
+            "pronunciation": "BIT-er",
+            "korean": "쓴",
+            "definition": "커피나 약처럼 강하고 쓴 맛이 나는",
+            "sentence": ""
+          },
+          {
+            "word": "Thirsty",
+            "pronunciation": "THER-stee",
+            "korean": "목이 마른",
+            "definition": "물이나 음료를 마시고 싶은 느낌",
+            "sentence": ""
+          },
+          {
+            "word": "Kitchen",
+            "pronunciation": "KICH-en",
+            "korean": "주방",
+            "definition": "음식을 준비하고 요리하는 방",
+            "sentence": ""
+          },
+          {
+            "word": "Flavour",
+            "pronunciation": "FLAY-ver",
+            "korean": "맛, 풍미",
+            "definition": "음식이나 음료를 먹을 때 느껴지는 고유한 맛",
+            "sentence": ""
+          },
+          {
+            "word": "Cuisine",
+            "pronunciation": "kwi-ZEEN",
+            "korean": "요리 (특정 지역/나라의)",
+            "definition": "특정 나라나 지역의 고유한 요리 방식 또는 음식 문화",
+            "sentence": ""
+          },
+          {
+            "word": "Recipe",
+            "pronunciation": "RES-uh-pee",
+            "korean": "조리법",
+            "definition": "음식을 만드는 방법과 필요한 재료를 설명한 것",
+            "sentence": ""
+          },
+          {
+            "word": "Dessert",
+            "pronunciation": "dih-ZERT",
+            "korean": "디저트",
+            "definition": "식사 후에 먹는 달콤한 음식 (케이크, 아이스크림 등)",
+            "sentence": ""
+          },
+          {
+            "word": "Vegetarian",
+            "pronunciation": "vej-uh-TAIR-ee-un",
+            "korean": "채식주의자",
+            "definition": "고기를 먹지 않고 채소와 식물성 음식만 먹는 사람 또는 그런 음식",
+            "sentence": ""
+          },
+          {
+            "word": "Spaghetti",
+            "pronunciation": "spuh-GET-ee",
+            "korean": "스파게티",
+            "definition": "길고 가는 이탈리아 면 요리",
+            "sentence": ""
+          },
+          {
+            "word": "Fruit",
+            "pronunciation": "FROOT",
+            "korean": "과일",
+            "definition": "나무나 식물에서 열리는 달콤하고 영양가 있는 식물성 식품",
+            "sentence": ""
+          },
+          {
+            "word": "Salty",
+            "pronunciation": "SAWL-tee",
+            "korean": "짠",
+            "definition": "소금이 많이 들어 있어 짠맛이 나는",
+            "sentence": ""
+          },
+          {
+            "word": "Hungry",
+            "pronunciation": "HUNG-gree",
+            "korean": "배고픈",
+            "definition": "음식을 먹고 싶은 느낌, 배가 고픈 상태",
+            "sentence": ""
+          },
+          {
+            "word": "Refrigerator",
+            "pronunciation": "rih-FRIJ-uh-ray-ter",
+            "korean": "냉장고",
+            "definition": "음식을 신선하게 보관하기 위해 차갑게 유지하는 가전제품",
+            "sentence": ""
+          },
+          {
+            "word": "Healthy",
+            "pronunciation": "HEL-thee",
+            "korean": "건강한",
+            "definition": "몸에 좋고 영양가 있는, 건강을 유지시켜 주는",
+            "sentence": ""
+          },
+          {
+            "word": "Beverage",
+            "pronunciation": "BEV-er-ij",
+            "korean": "음료",
+            "definition": "물, 주스, 차 등 마실 수 있는 모든 종류의 액체",
+            "sentence": ""
+          },
+          {
+            "word": "Utensil",
+            "pronunciation": "yoo-TEN-sil",
+            "korean": "조리 도구",
+            "definition": "요리하거나 먹을 때 사용하는 도구 (숟가락, 포크 등)",
+            "sentence": ""
+          },
+          {
+            "word": "Pastry",
+            "pronunciation": "PAY-stree",
+            "korean": "패스트리",
+            "definition": "밀가루, 버터 등으로 만든 바삭한 빵 또는 과자류",
+            "sentence": ""
+          },
+          {
+            "word": "Organic",
+            "pronunciation": "or-GAN-ik",
+            "korean": "유기농의",
+            "definition": "농약이나 화학 비료를 사용하지 않고 자연적으로 재배된",
+            "sentence": ""
+          },
+          {
+            "word": "Sandwich",
+            "pronunciation": "SAND-wich",
+            "korean": "샌드위치",
+            "definition": "두 장의 빵 사이에 고기, 채소 등을 넣어 만든 음식",
+            "sentence": ""
+          },
+          {
+            "word": "Sweet",
+            "pronunciation": "SWEET",
+            "korean": "달콤한",
+            "definition": "설탕이나 꿀처럼 달콤한 맛이 나는",
+            "sentence": ""
+          },
+          {
+            "word": "Spicy",
+            "pronunciation": "SPY-see",
+            "korean": "매운",
+            "definition": "고추나 향신료로 인해 맵고 자극적인 맛이 나는",
+            "sentence": ""
+          },
+          {
+            "word": "Appetising",
+            "pronunciation": "AP-uh-ty-zing",
+            "korean": "식욕을 돋우는",
+            "definition": "보거나 냄새를 맡았을 때 먹고 싶은 느낌이 드는",
+            "sentence": ""
+          },
+          {
+            "word": "Microwave",
+            "pronunciation": "MY-kroh-wayv",
+            "korean": "전자레인지",
+            "definition": "전자기파를 이용해 음식을 빠르게 데우거나 조리하는 기계",
+            "sentence": ""
+          },
+          {
+            "word": "Poisonous",
+            "pronunciation": "POY-zuh-nus",
+            "korean": "독이 있는",
+            "definition": "먹거나 접촉하면 몸에 해롭거나 위험한",
+            "sentence": ""
+          },
+          {
+            "word": "Delicious",
+            "pronunciation": "dih-LISH-us",
+            "korean": "맛있는",
+            "definition": "매우 맛이 좋고 먹기 즐거운",
+            "sentence": ""
+          },
+          {
+            "word": "Cutlery",
+            "pronunciation": "KUT-luh-ree",
+            "korean": "식기류",
+            "definition": "식사할 때 사용하는 칼, 포크, 숟가락 등의 도구",
+            "sentence": ""
+          },
+          {
+            "word": "Banquet",
+            "pronunciation": "BANG-kwit",
+            "korean": "연회",
+            "definition": "특별한 행사나 기념일에 여러 사람이 함께하는 성대한 식사",
+            "sentence": ""
+          },
+          {
+            "word": "Nutrient",
+            "pronunciation": "NOO-tree-ent",
+            "korean": "영양소",
+            "definition": "몸의 성장과 건강 유지에 필요한 영양 성분",
+            "sentence": ""
+          },
+          {
+            "word": "Sausage",
+            "pronunciation": "SAW-sij",
+            "korean": "소시지",
+            "definition": "다진 고기를 케이싱에 넣어 만든 식품",
+            "sentence": ""
+          },
+          {
+            "word": "Sour",
+            "pronunciation": "SOW-er",
+            "korean": "신",
+            "definition": "레몬이나 식초처럼 시큼한 맛이 나는",
+            "sentence": ""
+          },
+          {
+            "word": "Refreshing",
+            "pronunciation": "rih-FRESH-ing",
+            "korean": "상쾌한",
+            "definition": "마시거나 먹었을 때 시원하고 활기차게 느껴지는",
+            "sentence": ""
+          },
+          {
+            "word": "Gourmet",
+            "pronunciation": "GOOR-may",
+            "korean": "고급 요리의",
+            "definition": "고품질의 재료로 정성껏 만든 고급스러운 음식",
+            "sentence": ""
+          },
+          {
+            "word": "Seasoning",
+            "pronunciation": "SEE-zuh-ning",
+            "korean": "양념",
+            "definition": "음식의 맛을 더하기 위해 사용하는 소금, 후추, 향신료 등",
+            "sentence": ""
+          },
+          {
+            "word": "Diet",
+            "pronunciation": "DY-et",
+            "korean": "식단",
+            "definition": "건강 유지나 체중 조절을 위해 먹는 음식의 종류와 양",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
