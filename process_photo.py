@@ -32,6 +32,12 @@ def safe_parse_json(raw):
         return json.loads(raw)
     except json.JSONDecodeError:
         pass
+    # trailing comma 제거 (예: {"key": "val",} 또는 [...,])
+    raw = re.sub(r',\s*([}\]])', r'\1', raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
     # Character-by-character scan to escape control chars inside strings
     result = []
     in_string = False
@@ -50,6 +56,8 @@ def safe_parse_json(raw):
             result.append(escape_map[c]); i += 1; continue
         result.append(c); i += 1
     fixed = ''.join(result)
+    # trailing comma 재처리 (개행 수정 후)
+    fixed = re.sub(r',\s*([}\]])', r'\1', fixed)
     try:
         return json.loads(fixed)
     except json.JSONDecodeError as e:
