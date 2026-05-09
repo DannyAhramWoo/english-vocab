@@ -845,5 +845,163 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260509_SpellingList3435",
+    "source": "학교",
+    "date": "2026-05-09",
+    "lesson": "Spelling List 34 & 35",
+    "groups": [
+      {
+        "name": "Spelling List 34",
+        "words": [
+          {
+            "word": "located",
+            "pronunciation": "LOH-kay-ted",
+            "korean": "위치한",
+            "definition": "특정 장소나 위치에 있는 상태를 나타내는 말",
+            "sentence": ""
+          },
+          {
+            "word": "disrupted",
+            "pronunciation": "dis-RUP-ted",
+            "korean": "방해받은",
+            "definition": "정상적인 흐름이나 활동이 중단되거나 방해를 받은 상태",
+            "sentence": ""
+          },
+          {
+            "word": "evacuated",
+            "pronunciation": "ih-VAK-yoo-ay-ted",
+            "korean": "대피한",
+            "definition": "위험한 장소에서 안전한 곳으로 이동한 상태",
+            "sentence": ""
+          },
+          {
+            "word": "festival",
+            "pronunciation": "FES-tih-val",
+            "korean": "축제",
+            "definition": "특별한 날을 기념하여 열리는 행사나 잔치",
+            "sentence": ""
+          },
+          {
+            "word": "ceremony",
+            "pronunciation": "SEH-ruh-moh-nee",
+            "korean": "의식",
+            "definition": "특별한 행사나 의례를 공식적으로 진행하는 절차",
+            "sentence": ""
+          },
+          {
+            "word": "celebration",
+            "pronunciation": "sel-uh-BRAY-shun",
+            "korean": "축하",
+            "definition": "기쁜 일이나 특별한 날을 기념하며 즐기는 행사",
+            "sentence": ""
+          },
+          {
+            "word": "clumsy",
+            "pronunciation": "KLUM-zee",
+            "korean": "서툰",
+            "definition": "동작이 어색하고 물건을 잘 떨어뜨리거나 실수를 자주 하는 모습",
+            "sentence": ""
+          },
+          {
+            "word": "drowsy",
+            "pronunciation": "DROW-zee",
+            "korean": "졸린",
+            "definition": "잠이 와서 눈이 무겁고 나른한 상태",
+            "sentence": ""
+          },
+          {
+            "word": "awkward",
+            "pronunciation": "AWK-werd",
+            "korean": "어색한",
+            "definition": "상황이나 행동이 불편하고 자연스럽지 않은 모습",
+            "sentence": ""
+          },
+          {
+            "word": "mischievous",
+            "pronunciation": "MIS-chuh-vus",
+            "korean": "장난기 많은",
+            "definition": "남을 놀리거나 작은 말썽을 일으키기 좋아하는 성격",
+            "sentence": ""
+          }
+        ]
+      },
+      {
+        "name": "Spelling List 35",
+        "words": [
+          {
+            "word": "safe",
+            "pronunciation": "SAYF",
+            "korean": "안전한",
+            "definition": "위험하지 않고 보호받고 있는 상태",
+            "sentence": ""
+          },
+          {
+            "word": "safety",
+            "pronunciation": "SAYF-tee",
+            "korean": "안전",
+            "definition": "위험이나 사고로부터 보호받는 상태 또는 그런 조건",
+            "sentence": ""
+          },
+          {
+            "word": "sincerely",
+            "pronunciation": "sin-SEER-lee",
+            "korean": "진심으로",
+            "definition": "거짓 없이 진심을 담아 행동하거나 말하는 방식",
+            "sentence": ""
+          },
+          {
+            "word": "anxiously",
+            "pronunciation": "ANK-shus-lee",
+            "korean": "불안하게",
+            "definition": "걱정되거나 초조한 마음으로 행동하는 방식",
+            "sentence": ""
+          },
+          {
+            "word": "profusely",
+            "pronunciation": "proh-FYOOS-lee",
+            "korean": "풍부하게",
+            "definition": "매우 많은 양으로 넘치도록 표현하거나 쏟아내는 방식",
+            "sentence": ""
+          },
+          {
+            "word": "zealously",
+            "pronunciation": "ZEL-us-lee",
+            "korean": "열정적으로",
+            "definition": "어떤 일에 매우 열심히 헌신하며 행동하는 방식",
+            "sentence": ""
+          },
+          {
+            "word": "maintenance",
+            "pronunciation": "MAYN-tuh-nuns",
+            "korean": "유지 관리",
+            "definition": "기계나 시설 등이 제대로 작동하도록 관리하고 보수하는 일",
+            "sentence": ""
+          },
+          {
+            "word": "manageable",
+            "pronunciation": "MAN-ij-uh-bul",
+            "korean": "다룰 수 있는",
+            "definition": "통제하거나 처리하기 어렵지 않아 감당할 수 있는 수준",
+            "sentence": ""
+          },
+          {
+            "word": "manoeuvre",
+            "pronunciation": "muh-NOO-ver",
+            "korean": "기동",
+            "definition": "특정 목적을 위해 교묘하게 움직이거나 조종하는 행위",
+            "sentence": ""
+          },
+          {
+            "word": "medicine",
+            "pronunciation": "MED-ih-sin",
+            "korean": "약",
+            "definition": "병이나 통증을 치료하거나 예방하기 위해 먹거나 바르는 물질",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
