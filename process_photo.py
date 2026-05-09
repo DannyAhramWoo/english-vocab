@@ -69,7 +69,12 @@ def safe_parse_json(raw):
 def convert_heic_to_jpeg(path):
     if path.suffix.lower() in ['.heic', '.heif']:
         try:
-            import pillow_heif
+            try:
+                import pillow_heif
+            except ImportError:
+                import subprocess
+                subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pillow', 'pillow-heif', '-q'])
+                import pillow_heif
             from PIL import Image
             pillow_heif.register_heif_opener()
             img = Image.open(path)
