@@ -66,6 +66,21 @@ def safe_parse_json(raw):
         print(f"  → 파싱 실패 상세: char {pos} 주변: {snippet}")
         raise
 
+def convert_heic_to_jpeg(path):
+    if path.suffix.lower() in ['.heic', '.heif']:
+        try:
+            import pillow_heif
+            from PIL import Image
+            pillow_heif.register_heif_opener()
+            img = Image.open(path)
+            jpeg_path = path.with_suffix('.jpg')
+            img.save(jpeg_path, 'JPEG', quality=90)
+            print(f"  → HEIC → JPEG 변환: {jpeg_path.name}")
+            return jpeg_path
+        except Exception as e:
+            print(f"  → HEIC 변환 실패: {e}")
+    return path
+
 def encode_image(path):
     with open(path, 'rb') as f:
         return base64.standard_b64encode(f.read()).decode('utf-8')
@@ -126,12 +141,13 @@ PROMPT = """
 
 def extract_words(client, photo_path):
     print(f"  처리 중: {photo_path.name}")
+    photo_path = convert_heic_to_jpeg(photo_path)
     img_data = encode_image(photo_path)
     media_type = get_media_type(photo_path)
 
     msg = client.messages.create(
         model='claude-sonnet-4-6',
-        max_tokens=4000,
+        max_tokens=8000,
         messages=[{
             'role': 'user',
             'content': [
