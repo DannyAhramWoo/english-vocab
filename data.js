@@ -847,8 +847,8 @@ window.VOCAB_DATA = [
     ]
   },
   {
-    "id": "학교_20260509_SpellingList3435",
-    "source": "학교",
+    "id": "학원_20260509_SpellingList3435",
+    "source": "학원",
     "date": "2026-05-09",
     "lesson": "Spelling List 34 & 35",
     "groups": [
