@@ -1296,5 +1296,298 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260629_7ActionVerbsVividVoc",
+    "source": "학교",
+    "date": "2026-06-29",
+    "lesson": "7. Action Verbs (Vivid Vocabulary)",
+    "groups": [
+      {
+        "name": "Action Verbs (Vivid Vocabulary)",
+        "words": [
+          {
+            "word": "Fluttered",
+            "pronunciation": "FLUT-erd",
+            "korean": "펄럭였다",
+            "definition": "날개나 깃발 등이 가볍게 빠르게 움직이다",
+            "sentence": ""
+          },
+          {
+            "word": "Scribbled",
+            "pronunciation": "SKRIB-uld",
+            "korean": "갈겨 썼다",
+            "definition": "글씨를 빠르고 엉성하게 쓰다",
+            "sentence": ""
+          },
+          {
+            "word": "Shivered",
+            "pronunciation": "SHIV-erd",
+            "korean": "떨었다",
+            "definition": "추위나 두려움으로 몸을 떨다",
+            "sentence": ""
+          },
+          {
+            "word": "Realised",
+            "pronunciation": "REE-uh-lyzd",
+            "korean": "깨달았다",
+            "definition": "어떤 사실을 이해하거나 알아차리다",
+            "sentence": ""
+          },
+          {
+            "word": "Sprinted",
+            "pronunciation": "SPRINT-id",
+            "korean": "전력질주했다",
+            "definition": "짧은 거리를 최대한 빠르게 달리다",
+            "sentence": ""
+          },
+          {
+            "word": "Giggled",
+            "pronunciation": "GIG-uld",
+            "korean": "킥킥 웃었다",
+            "definition": "가볍고 즐겁게 웃다",
+            "sentence": ""
+          },
+          {
+            "word": "Clutched",
+            "pronunciation": "KLUCHD",
+            "korean": "꽉 잡았다",
+            "definition": "무언가를 단단히 손으로 쥐다",
+            "sentence": ""
+          },
+          {
+            "word": "Arranged",
+            "pronunciation": "uh-RAINJD",
+            "korean": "정리했다",
+            "definition": "물건이나 일을 순서에 맞게 배치하거나 준비하다",
+            "sentence": ""
+          },
+          {
+            "word": "Discussed",
+            "pronunciation": "dis-KUSSD",
+            "korean": "논의했다",
+            "definition": "어떤 주제에 대해 여러 사람이 이야기를 나누다",
+            "sentence": ""
+          },
+          {
+            "word": "Replied",
+            "pronunciation": "rih-PLYD",
+            "korean": "대답했다",
+            "definition": "누군가의 말이나 질문에 응답하다",
+            "sentence": ""
+          },
+          {
+            "word": "Hurried",
+            "pronunciation": "HUR-eed",
+            "korean": "서둘렀다",
+            "definition": "빠르게 움직이거나 서둘러 행동하다",
+            "sentence": ""
+          },
+          {
+            "word": "Whispered",
+            "pronunciation": "WIS-perd",
+            "korean": "속삭였다",
+            "definition": "아주 작은 목소리로 조용히 말하다",
+            "sentence": ""
+          },
+          {
+            "word": "Noticed",
+            "pronunciation": "NOH-tist",
+            "korean": "알아챘다",
+            "definition": "무언가를 보거나 인식하다",
+            "sentence": ""
+          },
+          {
+            "word": "Gathered",
+            "pronunciation": "GATH-erd",
+            "korean": "모았다",
+            "definition": "사람이나 물건을 한 곳에 모으다",
+            "sentence": ""
+          },
+          {
+            "word": "Stumbled",
+            "pronunciation": "STUM-buld",
+            "korean": "비틀거렸다",
+            "definition": "걷다가 발이 걸려 비틀거리거나 넘어질 뻔하다",
+            "sentence": ""
+          },
+          {
+            "word": "Chuckled",
+            "pronunciation": "CHUK-uld",
+            "korean": "낮게 웃었다",
+            "definition": "조용하고 부드럽게 웃다",
+            "sentence": ""
+          },
+          {
+            "word": "Grabbed",
+            "pronunciation": "GRABD",
+            "korean": "붙잡았다",
+            "definition": "갑자기 빠르게 손으로 잡다",
+            "sentence": ""
+          },
+          {
+            "word": "Prepared",
+            "pronunciation": "prih-PAIRD",
+            "korean": "준비했다",
+            "definition": "어떤 일을 위해 미리 갖추거나 준비하다",
+            "sentence": ""
+          },
+          {
+            "word": "Persuaded",
+            "pronunciation": "per-SWAYD-id",
+            "korean": "설득했다",
+            "definition": "상대방이 자신의 의견을 따르도록 납득시키다",
+            "sentence": ""
+          },
+          {
+            "word": "Answered",
+            "pronunciation": "AN-serd",
+            "korean": "답했다",
+            "definition": "질문이나 부름에 응하다",
+            "sentence": ""
+          },
+          {
+            "word": "Dashed",
+            "pronunciation": "DASHT",
+            "korean": "돌진했다",
+            "definition": "매우 빠르게 달려가다",
+            "sentence": ""
+          },
+          {
+            "word": "Bellowed",
+            "pronunciation": "BEL-ohd",
+            "korean": "고함쳤다",
+            "definition": "크고 깊은 목소리로 큰 소리를 지르다",
+            "sentence": ""
+          },
+          {
+            "word": "Observed",
+            "pronunciation": "ob-ZERVD",
+            "korean": "관찰했다",
+            "definition": "주의 깊게 바라보거나 살피다",
+            "sentence": ""
+          },
+          {
+            "word": "Managed",
+            "pronunciation": "MAN-ijd",
+            "korean": "해냈다",
+            "definition": "어려운 상황에서도 어떤 일을 성공적으로 해내다",
+            "sentence": ""
+          },
+          {
+            "word": "Glanced",
+            "pronunciation": "GLANST",
+            "korean": "흘끗 봤다",
+            "definition": "잠깐 짧게 바라보다",
+            "sentence": ""
+          },
+          {
+            "word": "Panted",
+            "pronunciation": "PAN-tid",
+            "korean": "헐떡였다",
+            "definition": "숨을 가쁘게 몰아쉬다",
+            "sentence": ""
+          },
+          {
+            "word": "Hurled",
+            "pronunciation": "HURLD",
+            "korean": "내던졌다",
+            "definition": "세게 힘차게 던지다",
+            "sentence": ""
+          },
+          {
+            "word": "Decided",
+            "pronunciation": "dih-SY-did",
+            "korean": "결정했다",
+            "definition": "여러 선택 중 하나를 선택하여 결정하다",
+            "sentence": ""
+          },
+          {
+            "word": "Complained",
+            "pronunciation": "kum-PLAYND",
+            "korean": "불평했다",
+            "definition": "불만족스러운 것에 대해 말하다",
+            "sentence": ""
+          },
+          {
+            "word": "Questioned",
+            "pronunciation": "KWES-chund",
+            "korean": "질문했다",
+            "definition": "무언가에 대해 묻거나 의문을 제기하다",
+            "sentence": ""
+          },
+          {
+            "word": "Wandered",
+            "pronunciation": "WON-derd",
+            "korean": "돌아다녔다",
+            "definition": "특별한 목적 없이 이리저리 거닐다",
+            "sentence": ""
+          },
+          {
+            "word": "Trembled",
+            "pronunciation": "TREM-buld",
+            "korean": "떨렸다",
+            "definition": "두려움이나 흥분으로 몸이나 손이 떨리다",
+            "sentence": ""
+          },
+          {
+            "word": "Examined",
+            "pronunciation": "ig-ZAM-ind",
+            "korean": "살펴봤다",
+            "definition": "무언가를 꼼꼼하고 자세히 살피다",
+            "sentence": ""
+          },
+          {
+            "word": "Struggled",
+            "pronunciation": "STRUG-uld",
+            "korean": "애썼다",
+            "definition": "어려운 상황에서 힘들게 노력하다",
+            "sentence": ""
+          },
+          {
+            "word": "Peered",
+            "pronunciation": "PEERD",
+            "korean": "유심히 봤다",
+            "definition": "잘 보기 위해 눈을 가늘게 뜨고 주의 깊게 바라보다",
+            "sentence": ""
+          },
+          {
+            "word": "Gasping",
+            "pronunciation": "GAS-ping",
+            "korean": "숨을 헐떡이다",
+            "definition": "놀람이나 고통으로 갑자기 숨을 들이마시다",
+            "sentence": ""
+          },
+          {
+            "word": "Placed",
+            "pronunciation": "PLAYST",
+            "korean": "놓았다",
+            "definition": "물건을 특정 위치에 조심스럽게 놓다",
+            "sentence": ""
+          },
+          {
+            "word": "Suggested",
+            "pronunciation": "sug-JES-tid",
+            "korean": "제안했다",
+            "definition": "어떤 아이디어나 계획을 다른 사람에게 말하다",
+            "sentence": ""
+          },
+          {
+            "word": "Promised",
+            "pronunciation": "PROM-ist",
+            "korean": "약속했다",
+            "definition": "무언가를 꼭 하겠다고 다짐하다",
+            "sentence": ""
+          },
+          {
+            "word": "Remembered",
+            "pronunciation": "rih-MEM-berd",
+            "korean": "기억했다",
+            "definition": "과거의 일이나 정보를 떠올리다",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
