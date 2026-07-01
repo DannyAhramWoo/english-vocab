@@ -118,8 +118,9 @@ PROMPT = """
 ## 공통 규칙
 - 손글씨(연필/펜 메모)는 무시, 인쇄된 텍스트만 추출
 - lesson: 사진에 보이는 제목/단원 정보 (예: "T2.1 Unit 4: Predators and Prey")
-- 각 단어에 대해 AI가 한국어 뜻(korean)과 한국어 설명(definition)을 생성
+- 각 단어에 대해 AI가 한국어 뜻(korean), 한국어 설명(definition), 영어 정의(english_def)를 생성
 - pronunciation: 영어 발음을 대문자 음절로 표기 (예: "PRED-uh-ter")
+- english_def: 초등학생/중학생이 이해할 수 있는 쉬운 영어 문장으로 단어 정의 (예: "An animal that hunts and kills other animals for food.")
 - sentence가 없으면 빈 문자열 ""로 설정
 - JSON 문자열 안에 큰따옴표 필요시 \" 로 이스케이프
 
@@ -136,6 +137,7 @@ PROMPT = """
           "pronunciation": "발음표기",
           "korean": "한국어뜻",
           "definition": "한국어로 간단한 설명",
+          "english_def": "쉬운 영어로 단어 정의 (한 문장)",
           "sentence": "예문 문장 (없으면 빈 문자열)"
         }
       ]

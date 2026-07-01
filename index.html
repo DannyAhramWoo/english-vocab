@@ -93,6 +93,11 @@ body {
 .card-question { text-align: center; padding-bottom: 20px; }
 .question-korean { font-size: 30px; font-weight: 800; color: #222; margin-bottom: 8px; }
 .question-definition { font-size: 15px; color: #888; line-height: 1.5; }
+.question-english-def {
+  font-size: 14px; color: #7b1fa2; line-height: 1.6;
+  background: #f8f4fc; border-radius: 10px; padding: 10px 14px;
+  margin-top: 10px; text-align: left; font-style: italic;
+}
 
 /* Dashed separator */
 .card-sep { border: none; border-top: 2px dashed #eee; margin: 0 0 20px; }
@@ -280,6 +285,7 @@ body {
       <div class="card-question">
         <div id="korean-display" class="question-korean"></div>
         <div id="definition-display" class="question-definition"></div>
+        <div id="english-def-display" class="question-english-def"></div>
       </div>
       <hr class="card-sep">
 
@@ -444,6 +450,13 @@ function renderCard() {
   // Fill content
   document.getElementById('korean-display').textContent     = word.korean;
   document.getElementById('definition-display').textContent = word.definition || '';
+  const engDefEl = document.getElementById('english-def-display');
+  if (word.english_def) {
+    engDefEl.textContent = '💬 ' + word.english_def;
+    engDefEl.style.display = 'block';
+  } else {
+    engDefEl.style.display = 'none';
+  }
   document.getElementById('word-display').textContent       = word.word;
   document.getElementById('pronunciation-display').textContent = word.pronunciation || '';
   document.getElementById('group-name').textContent         = groupName;
@@ -501,40 +514,19 @@ function toggleHint() {
 }
 
 // ── Sound ──
-// rate: 말하기 속도 (기본 1.0, 낮추면 느려짐, 높이면 빨라짐)
-// pitch: 음높이 (기본 1.0, 높일수록 젊고 또렷한 톤이 됨)
-function playSound(rate = 1.0, pitch = 1.1) {
+function playSound() {
   if (!('speechSynthesis' in window)) return;
-  speechSynthesis.cancel(); // 진행 중인 음성 중지
-
-  const wordToSpeak = currentWords[currentIndex].word;
-  const utter = new SpeechSynthesisUtterance(wordToSpeak);
-  
-  // 1. 속도와 음높이 설정
-  utter.rate = rate;   // 속도 조절
-  utter.pitch = pitch; // 음높이 조절 (1.0~1.2 사이를 추천합니다)
-  utter.lang = 'en-US'; // 대중적이고 또렷한 미국 영어를 기본으로 설정
-
-  // 2. 목소리(Voice) 선택 로직 개선
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(currentWords[currentIndex].word);
+  utter.lang = 'en-SG';
+  utter.rate = 0.8;
   const voices = speechSynthesis.getVoices();
-  
-  // Chrome의 Google 음성이나 Apple 기기의 고품질 음성을 우선적으로 찾습니다.
-  const premiumVoice = voices.find(v => v.name.includes('Google US English') || v.name.includes('Samantha') || v.name.includes('Daniel'));
-  const usVoice = voices.find(v => v.lang === 'en-US');
   const sgVoice = voices.find(v => v.lang === 'en-SG');
+  const usVoice = voices.find(v => v.lang === 'en-US');
   const enVoice = voices.find(v => v.lang.startsWith('en'));
-
-  // 고품질 음성 -> 미국 영어 -> 싱가포르 영어 -> 기타 영어 순으로 할당
-  if (premiumVoice) {
-    utter.voice = premiumVoice;
-  } else if (usVoice) {
-    utter.voice = usVoice;
-  } else if (sgVoice) {
-    utter.voice = sgVoice;
-  } else if (enVoice) {
-    utter.voice = enVoice;
-  }
-
+  if (sgVoice) utter.voice = sgVoice;
+  else if (usVoice) utter.voice = usVoice;
+  else if (enVoice) utter.voice = enVoice;
   speechSynthesis.speak(utter);
 }
 
