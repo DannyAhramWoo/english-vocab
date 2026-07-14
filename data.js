@@ -1799,5 +1799,322 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260714_4CommunityEnvironmen",
+    "source": "학교",
+    "date": "2026-07-14",
+    "lesson": "4. Community & Environment",
+    "groups": [
+      {
+        "name": "Community & Environment",
+        "words": [
+          {
+            "word": "Neighbourhood",
+            "pronunciation": "NAY-ber-hood",
+            "korean": "이웃 동네",
+            "definition": "내가 사는 집 주변의 지역이나 그곳에 사는 사람들",
+            "english_def": "The area around where you live, including the streets and the people who live nearby.",
+            "sentence": ""
+          },
+          {
+            "word": "Volunteer",
+            "pronunciation": "vol-un-TEER",
+            "korean": "자원봉사자",
+            "definition": "돈을 받지 않고 스스로 나서서 다른 사람을 돕는 사람",
+            "english_def": "A person who chooses to do helpful work for others without being paid.",
+            "sentence": ""
+          },
+          {
+            "word": "Environment",
+            "pronunciation": "en-VY-ron-ment",
+            "korean": "환경",
+            "definition": "우리 주변의 자연과 공기, 물 등 살아가는 공간 전체",
+            "english_def": "The natural world around us, including the air, water, land, and all living things.",
+            "sentence": ""
+          },
+          {
+            "word": "Resident",
+            "pronunciation": "REZ-ih-dent",
+            "korean": "주민",
+            "definition": "특정 지역에 살고 있는 사람",
+            "english_def": "A person who lives in a particular place or area.",
+            "sentence": ""
+          },
+          {
+            "word": "Roadside",
+            "pronunciation": "ROHD-syd",
+            "korean": "도로변",
+            "definition": "도로 옆이나 길가의 공간",
+            "english_def": "The area or strip of land along the side of a road.",
+            "sentence": ""
+          },
+          {
+            "word": "Library",
+            "pronunciation": "LY-brair-ee",
+            "korean": "도서관",
+            "definition": "책을 빌리거나 읽을 수 있는 공공 장소",
+            "english_def": "A place where books and other materials are kept for people to read or borrow.",
+            "sentence": ""
+          },
+          {
+            "word": "Pharmacy",
+            "pronunciation": "FAR-muh-see",
+            "korean": "약국",
+            "definition": "의약품을 팔거나 조제해 주는 가게",
+            "english_def": "A shop where medicines and health products are sold or prepared.",
+            "sentence": ""
+          },
+          {
+            "word": "Festival",
+            "pronunciation": "FES-tih-vul",
+            "korean": "축제",
+            "definition": "특별한 날을 기념하여 사람들이 모여 즐기는 행사",
+            "english_def": "A special celebration or event where people gather to enjoy music, food, and activities.",
+            "sentence": ""
+          },
+          {
+            "word": "Tradition",
+            "pronunciation": "truh-DISH-un",
+            "korean": "전통",
+            "definition": "오랫동안 이어져 내려온 문화나 풍습",
+            "english_def": "A custom or way of doing something that has been passed down through generations.",
+            "sentence": ""
+          },
+          {
+            "word": "Nature",
+            "pronunciation": "NAY-cher",
+            "korean": "자연",
+            "definition": "인간이 만들지 않은 산, 강, 동식물 등의 세계",
+            "english_def": "Everything in the physical world that is not made by people, such as plants, animals, and the weather.",
+            "sentence": ""
+          },
+          {
+            "word": "Pollution",
+            "pronunciation": "puh-LOO-shun",
+            "korean": "오염",
+            "definition": "공기, 물, 땅이 유해한 물질로 더럽혀지는 것",
+            "english_def": "The process of making air, water, or land dirty and harmful with waste or chemicals.",
+            "sentence": ""
+          },
+          {
+            "word": "Charity",
+            "pronunciation": "CHAIR-ih-tee",
+            "korean": "자선 단체 / 자선",
+            "definition": "도움이 필요한 사람들을 위해 돈이나 물건을 기부하는 행위 또는 단체",
+            "english_def": "An organization that helps people in need, or the act of giving money or help to those who need it.",
+            "sentence": ""
+          },
+          {
+            "word": "Littering",
+            "pronunciation": "LIT-er-ing",
+            "korean": "쓰레기 투기",
+            "definition": "공공장소에 쓰레기를 아무데나 버리는 행동",
+            "english_def": "The act of leaving rubbish or waste in a public place instead of putting it in a bin.",
+            "sentence": ""
+          },
+          {
+            "word": "Citizen",
+            "pronunciation": "SIT-ih-zen",
+            "korean": "시민",
+            "definition": "특정 나라나 도시에 법적으로 속해 있는 사람",
+            "english_def": "A person who legally belongs to a country and has rights and responsibilities there.",
+            "sentence": ""
+          },
+          {
+            "word": "Traffic",
+            "pronunciation": "TRAF-ik",
+            "korean": "교통 / 차량 통행",
+            "definition": "도로 위를 달리는 자동차나 사람들의 흐름",
+            "english_def": "The movement of vehicles and people along roads and streets.",
+            "sentence": ""
+          },
+          {
+            "word": "Museum",
+            "pronunciation": "myoo-ZEE-um",
+            "korean": "박물관",
+            "definition": "역사적, 예술적, 과학적 물건들을 전시하는 건물",
+            "english_def": "A building where important and interesting objects are kept and displayed for people to learn from.",
+            "sentence": ""
+          },
+          {
+            "word": "Canteen",
+            "pronunciation": "kan-TEEN",
+            "korean": "구내식당 / 매점",
+            "definition": "학교나 직장 같은 건물 안에 있는 식당",
+            "english_def": "A place inside a school or workplace where food and drinks are sold and eaten.",
+            "sentence": ""
+          },
+          {
+            "word": "Occasion",
+            "pronunciation": "uh-KAY-zhun",
+            "korean": "특별한 행사 / 경우",
+            "definition": "특별하거나 중요한 일이 일어나는 때나 사건",
+            "english_def": "A special or important event or time when something happens.",
+            "sentence": ""
+          },
+          {
+            "word": "Culture",
+            "pronunciation": "KUL-cher",
+            "korean": "문화",
+            "definition": "한 사회나 집단이 공유하는 생활 방식, 예술, 믿음 등",
+            "english_def": "The customs, beliefs, arts, and way of life shared by a group of people or a country.",
+            "sentence": ""
+          },
+          {
+            "word": "Scenery",
+            "pronunciation": "SEE-ner-ee",
+            "korean": "경치 / 풍경",
+            "definition": "자연의 아름다운 모습이나 주변의 경관",
+            "english_def": "The natural features of a landscape, especially when they are beautiful to look at.",
+            "sentence": ""
+          },
+          {
+            "word": "Recycling",
+            "pronunciation": "ree-SY-kling",
+            "korean": "재활용",
+            "definition": "사용한 물건을 다시 사용할 수 있도록 처리하는 것",
+            "english_def": "The process of collecting and converting used materials into new products to reduce waste.",
+            "sentence": ""
+          },
+          {
+            "word": "Donation",
+            "pronunciation": "doh-NAY-shun",
+            "korean": "기부",
+            "definition": "도움이 필요한 사람이나 단체에 돈이나 물건을 주는 것",
+            "english_def": "Something such as money or goods that you give to help a person or organization in need.",
+            "sentence": ""
+          },
+          {
+            "word": "Cleanliness",
+            "pronunciation": "KLEN-lee-nes",
+            "korean": "청결 / 깨끗함",
+            "definition": "몸이나 주변 환경을 깨끗하게 유지하는 상태나 습관",
+            "english_def": "The quality or habit of keeping yourself or your surroundings clean and tidy.",
+            "sentence": ""
+          },
+          {
+            "word": "Pedestrian",
+            "pronunciation": "puh-DES-tree-un",
+            "korean": "보행자",
+            "definition": "차를 타지 않고 걸어서 이동하는 사람",
+            "english_def": "A person who is walking, especially in a town or along a road.",
+            "sentence": ""
+          },
+          {
+            "word": "Signal",
+            "pronunciation": "SIG-nul",
+            "korean": "신호",
+            "definition": "특정 행동을 지시하거나 알려주기 위한 빛, 소리, 동작 등",
+            "english_def": "A sign, light, or sound that gives information or tells people what to do.",
+            "sentence": ""
+          },
+          {
+            "word": "Hospital",
+            "pronunciation": "HOS-pih-tul",
+            "korean": "병원",
+            "definition": "아프거나 다친 사람들이 치료를 받는 큰 의료 시설",
+            "english_def": "A large building where sick or injured people are treated by doctors and nurses.",
+            "sentence": ""
+          },
+          {
+            "word": "Hawker",
+            "pronunciation": "HAW-ker",
+            "korean": "노점상 / 호커",
+            "definition": "길거리나 노점에서 음식이나 물건을 파는 사람",
+            "english_def": "A person who sells food or goods from a stall or cart, especially in a hawker centre.",
+            "sentence": ""
+          },
+          {
+            "word": "Ceremony",
+            "pronunciation": "SER-uh-moh-nee",
+            "korean": "의식 / 행사",
+            "definition": "특별한 목적을 위해 정해진 절차에 따라 진행하는 공식 행사",
+            "english_def": "A formal event held to celebrate or mark an important occasion.",
+            "sentence": ""
+          },
+          {
+            "word": "Country",
+            "pronunciation": "KUN-tree",
+            "korean": "나라 / 국가",
+            "definition": "정부와 경계를 가진 독립된 땅의 구역",
+            "english_def": "A nation with its own government, occupying a particular area of land.",
+            "sentence": ""
+          },
+          {
+            "word": "Campaign",
+            "pronunciation": "kam-PAYN",
+            "korean": "캠페인 / 운동",
+            "definition": "특정 목표를 이루기 위해 조직적으로 벌이는 활동",
+            "english_def": "A planned set of activities done to achieve a goal, such as raising awareness about an issue.",
+            "sentence": ""
+          },
+          {
+            "word": "Community",
+            "pronunciation": "kuh-MYOO-nih-tee",
+            "korean": "지역 사회 / 공동체",
+            "definition": "같은 지역에 살거나 공통된 관심사를 가진 사람들의 집단",
+            "english_def": "A group of people who live in the same area or share common interests and values.",
+            "sentence": ""
+          },
+          {
+            "word": "Hygiene",
+            "pronunciation": "HY-jeen",
+            "korean": "위생",
+            "definition": "건강을 유지하기 위해 몸과 주변 환경을 깨끗하게 하는 습관",
+            "english_def": "The practice of keeping yourself and your surroundings clean to stay healthy and prevent disease.",
+            "sentence": ""
+          },
+          {
+            "word": "Pavement",
+            "pronunciation": "PAYV-ment",
+            "korean": "인도 / 보도",
+            "definition": "도로 옆에 사람이 걸어다닐 수 있도록 만들어진 포장된 길",
+            "english_def": "A hard, flat path at the side of a road where people can walk safely.",
+            "sentence": ""
+          },
+          {
+            "word": "Crossing",
+            "pronunciation": "KROS-ing",
+            "korean": "횡단보도",
+            "definition": "사람들이 도로를 안전하게 건널 수 있도록 표시된 구역",
+            "english_def": "A marked place on a road where people can safely walk across.",
+            "sentence": ""
+          },
+          {
+            "word": "Clinic",
+            "pronunciation": "KLIN-ik",
+            "korean": "클리닉 / 진료소",
+            "definition": "가벼운 질병을 치료하거나 진찰을 받을 수 있는 작은 의료 시설",
+            "english_def": "A small medical place where people go to see a doctor for treatment or health advice.",
+            "sentence": ""
+          },
+          {
+            "word": "Market",
+            "pronunciation": "MAR-kit",
+            "korean": "시장",
+            "definition": "다양한 물건이나 음식을 사고팔 수 있는 장소",
+            "english_def": "A place where people buy and sell goods, food, and other products.",
+            "sentence": ""
+          },
+          {
+            "word": "Holiday",
+            "pronunciation": "HOL-ih-day",
+            "korean": "휴일 / 공휴일",
+            "definition": "일이나 학교를 쉬는 날, 특히 공식적으로 정해진 날",
+            "english_def": "A day when people do not have to work or go to school, often to celebrate a special event.",
+            "sentence": ""
+          },
+          {
+            "word": "Island",
+            "pronunciation": "EYE-lund",
+            "korean": "섬",
+            "definition": "사방이 물로 둘러싸인 육지",
+            "english_def": "A piece of land that is completely surrounded by water.",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
