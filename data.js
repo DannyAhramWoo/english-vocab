@@ -2116,5 +2116,58 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260810_T36ShowDontTellDescr",
+    "source": "학교",
+    "date": "2026-08-10",
+    "lesson": "T3.6 Show, Don't Tell: Descriptive Sentences",
+    "groups": [
+      {
+        "name": "Spelling List",
+        "words": [
+          {
+            "word": "colour drained from his face",
+            "pronunciation": "KUL-er DRAYND from hiz FAYS",
+            "korean": "얼굴에서 핏기가 가시다",
+            "definition": "두려움이나 충격으로 얼굴이 창백해지는 것을 묘사하는 표현",
+            "english_def": "A phrase describing when someone's face turns pale because they are shocked or frightened.",
+            "sentence": "His stomach dropped and the colour drained from his face."
+          },
+          {
+            "word": "stood rooted to the spot",
+            "pronunciation": "STOOD ROO-ted to the SPOT",
+            "korean": "그 자리에 얼어붙다",
+            "definition": "너무 놀라거나 충격을 받아 움직이지 못하고 그 자리에 굳어버리는 것",
+            "english_def": "A phrase meaning to be so shocked or surprised that you cannot move from where you are standing.",
+            "sentence": "He stood rooted to the spot, his mouth hanging open in disbelief."
+          },
+          {
+            "word": "swallow him whole",
+            "pronunciation": "SWOL-oh him HOLE",
+            "korean": "통째로 삼켜버리다 (사라지고 싶다)",
+            "definition": "너무 부끄럽거나 창피해서 땅속으로 꺼져버리고 싶다는 감정을 표현하는 관용구",
+            "english_def": "A phrase used to express that someone feels so embarrassed that they wish they could disappear.",
+            "sentence": "His ears turned red and he wished the ground would swallow him whole."
+          },
+          {
+            "word": "hung his head",
+            "pronunciation": "HUNG hiz HED",
+            "korean": "고개를 숙이다",
+            "definition": "부끄럽거나 슬퍼서 고개를 아래로 숙이는 행동",
+            "english_def": "A phrase meaning to lower your head because you feel ashamed, sad, or guilty.",
+            "sentence": "He hung his head and stared at the floor."
+          },
+          {
+            "word": "uncomfortable feeling settled",
+            "pronunciation": "un-KUM-fer-tuh-bul FEE-ling SET-uld",
+            "korean": "불편한 감정이 자리잡다",
+            "definition": "불안하거나 불쾌한 감정이 몸속에 자리를 잡고 머무는 것을 묘사하는 표현",
+            "english_def": "A phrase describing when an uneasy or unpleasant feeling begins to stay strongly inside you.",
+            "sentence": "A heavy, uncomfortable feeling settled in the pit of his stomach."
+          }
+        ]
+      }
+    ]
   }
 ];
