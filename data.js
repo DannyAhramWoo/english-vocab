@@ -2169,5 +2169,338 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260811_8TechnologyScience",
+    "source": "학교",
+    "date": "2026-08-11",
+    "lesson": "8. Technology & Science",
+    "groups": [
+      {
+        "name": "Technology & Science",
+        "words": [
+          {
+            "word": "Invention",
+            "pronunciation": "in-VEN-shun",
+            "korean": "발명",
+            "definition": "새롭게 만들어낸 것 또는 그 행위",
+            "english_def": "Something new that someone has made or created for the first time.",
+            "sentence": ""
+          },
+          {
+            "word": "Satellite",
+            "pronunciation": "SAT-uh-lyt",
+            "korean": "위성",
+            "definition": "지구나 다른 행성 주위를 도는 물체",
+            "english_def": "An object that is sent into space and goes around the Earth or another planet.",
+            "sentence": ""
+          },
+          {
+            "word": "Wireless",
+            "pronunciation": "WYR-les",
+            "korean": "무선",
+            "definition": "전선 없이 신호를 주고받는 방식",
+            "english_def": "A way of sending or receiving signals without using wires or cables.",
+            "sentence": ""
+          },
+          {
+            "word": "Digital",
+            "pronunciation": "DIJ-ih-tul",
+            "korean": "디지털",
+            "definition": "숫자나 전자 신호를 이용한 방식",
+            "english_def": "Using numbers or electronic signals to store or send information.",
+            "sentence": ""
+          },
+          {
+            "word": "Gadget",
+            "pronunciation": "GAJ-it",
+            "korean": "기기, 소형 장치",
+            "definition": "편리하게 쓸 수 있는 작은 전자 장치",
+            "english_def": "A small and clever electronic device that is useful or fun to use.",
+            "sentence": ""
+          },
+          {
+            "word": "Battery",
+            "pronunciation": "BAT-uh-ree",
+            "korean": "배터리, 전지",
+            "definition": "전기를 저장하여 기기에 전력을 공급하는 장치",
+            "english_def": "A small device that stores electricity and powers machines or gadgets.",
+            "sentence": ""
+          },
+          {
+            "word": "Online",
+            "pronunciation": "ON-lyne",
+            "korean": "온라인",
+            "definition": "인터넷에 연결된 상태",
+            "english_def": "Connected to the internet and able to use websites or apps.",
+            "sentence": ""
+          },
+          {
+            "word": "Control",
+            "pronunciation": "kun-TROHL",
+            "korean": "제어, 통제",
+            "definition": "무언가를 조종하거나 관리하는 것",
+            "english_def": "To manage or operate something, like a machine or a device.",
+            "sentence": ""
+          },
+          {
+            "word": "Planet",
+            "pronunciation": "PLAN-it",
+            "korean": "행성",
+            "definition": "태양 주위를 도는 큰 천체",
+            "english_def": "A large round object in space that moves around a star like the Sun.",
+            "sentence": ""
+          },
+          {
+            "word": "Oxygen",
+            "pronunciation": "OK-sih-jen",
+            "korean": "산소",
+            "definition": "사람과 동물이 숨을 쉬는 데 필요한 기체",
+            "english_def": "A gas in the air that humans and animals need to breathe to stay alive.",
+            "sentence": ""
+          },
+          {
+            "word": "Discovery",
+            "pronunciation": "dih-SKUV-uh-ree",
+            "korean": "발견",
+            "definition": "처음으로 알게 되거나 찾아낸 것",
+            "english_def": "Finding or learning about something for the very first time.",
+            "sentence": ""
+          },
+          {
+            "word": "Computer",
+            "pronunciation": "kum-PYOO-ter",
+            "korean": "컴퓨터",
+            "definition": "정보를 처리하고 저장하는 전자 기계",
+            "english_def": "An electronic machine that can store, process, and display information.",
+            "sentence": ""
+          },
+          {
+            "word": "Bluetooth",
+            "pronunciation": "BLOO-tooth",
+            "korean": "블루투스",
+            "definition": "짧은 거리에서 무선으로 기기를 연결하는 기술",
+            "english_def": "A wireless technology that connects devices over a short distance without cables.",
+            "sentence": ""
+          },
+          {
+            "word": "Platform",
+            "pronunciation": "PLAT-form",
+            "korean": "플랫폼",
+            "definition": "소프트웨어나 서비스를 실행하는 기반 환경",
+            "english_def": "A system or base that allows software or services to run and work.",
+            "sentence": ""
+          },
+          {
+            "word": "Device",
+            "pronunciation": "dih-VYS",
+            "korean": "장치, 기기",
+            "definition": "특정 목적을 위해 만들어진 전자 도구",
+            "english_def": "A tool or machine that is made to do a specific job, like a phone or tablet.",
+            "sentence": ""
+          },
+          {
+            "word": "Signal",
+            "pronunciation": "SIG-nul",
+            "korean": "신호",
+            "definition": "정보를 전달하기 위해 보내는 전기적 또는 무선 신호",
+            "english_def": "A wave or electronic message sent to carry information between devices.",
+            "sentence": ""
+          },
+          {
+            "word": "Message",
+            "pronunciation": "MES-ij",
+            "korean": "메시지",
+            "definition": "다른 사람에게 전달하는 글이나 말",
+            "english_def": "A piece of information or text that you send to someone.",
+            "sentence": ""
+          },
+          {
+            "word": "Machine",
+            "pronunciation": "muh-SHEEN",
+            "korean": "기계",
+            "definition": "일을 더 쉽게 하기 위해 만들어진 장치",
+            "english_def": "A device with moving parts that is made to do work or a task.",
+            "sentence": ""
+          },
+          {
+            "word": "Rocket",
+            "pronunciation": "ROK-it",
+            "korean": "로켓",
+            "definition": "빠른 속도로 하늘이나 우주로 날아가는 비행체",
+            "english_def": "A vehicle that moves very fast and is used to travel into space.",
+            "sentence": ""
+          },
+          {
+            "word": "Chemical",
+            "pronunciation": "KEM-ih-kul",
+            "korean": "화학 물질",
+            "definition": "과학적 반응을 일으키는 물질",
+            "english_def": "A substance that is made through a scientific process and can react with other substances.",
+            "sentence": ""
+          },
+          {
+            "word": "Experiment",
+            "pronunciation": "ik-SPEHR-ih-ment",
+            "korean": "실험",
+            "definition": "무언가를 알아내기 위해 테스트해 보는 것",
+            "english_def": "A test or trial done to find out or prove something in science.",
+            "sentence": ""
+          },
+          {
+            "word": "Keyboard",
+            "pronunciation": "KEE-bord",
+            "korean": "키보드",
+            "definition": "컴퓨터에 글자를 입력하는 장치",
+            "english_def": "A set of keys used to type letters and numbers into a computer.",
+            "sentence": ""
+          },
+          {
+            "word": "Password",
+            "pronunciation": "PAS-wurd",
+            "korean": "비밀번호",
+            "definition": "계정이나 기기를 보호하기 위한 비밀 문자열",
+            "english_def": "A secret word or set of letters and numbers used to protect your account or device.",
+            "sentence": ""
+          },
+          {
+            "word": "Download",
+            "pronunciation": "DOWN-lohd",
+            "korean": "다운로드",
+            "definition": "인터넷에서 파일이나 데이터를 기기로 가져오는 것",
+            "english_def": "To copy or save a file or app from the internet onto your device.",
+            "sentence": ""
+          },
+          {
+            "word": "Screen",
+            "pronunciation": "SKREEN",
+            "korean": "화면",
+            "definition": "컴퓨터나 스마트폰 등의 표시 장치",
+            "english_def": "The flat surface on a phone, computer, or TV that shows pictures and information.",
+            "sentence": ""
+          },
+          {
+            "word": "Network",
+            "pronunciation": "NET-wurk",
+            "korean": "네트워크",
+            "definition": "컴퓨터나 기기들이 연결된 시스템",
+            "english_def": "A system of connected computers or devices that can share information.",
+            "sentence": ""
+          },
+          {
+            "word": "Privacy",
+            "pronunciation": "PRY-vuh-see",
+            "korean": "개인 정보 보호, 사생활",
+            "definition": "개인 정보나 생활이 다른 사람에게 노출되지 않을 권리",
+            "english_def": "The right to keep your personal information and life away from others.",
+            "sentence": ""
+          },
+          {
+            "word": "Robot",
+            "pronunciation": "ROH-bot",
+            "korean": "로봇",
+            "definition": "프로그램에 의해 자동으로 움직이는 기계",
+            "english_def": "A machine that can move and do tasks automatically, often controlled by a computer.",
+            "sentence": ""
+          },
+          {
+            "word": "Astronaut",
+            "pronunciation": "AS-truh-nawt",
+            "korean": "우주비행사",
+            "definition": "우주선을 타고 우주를 여행하는 사람",
+            "english_def": "A person who is trained to travel and work in outer space.",
+            "sentence": ""
+          },
+          {
+            "word": "Natural",
+            "pronunciation": "NACH-ur-ul",
+            "korean": "자연의, 천연의",
+            "definition": "자연에서 나온 것으로 인공적이지 않은",
+            "english_def": "Something that comes from nature and is not made by people.",
+            "sentence": ""
+          },
+          {
+            "word": "Laboratory",
+            "pronunciation": "LAB-ruh-tor-ee",
+            "korean": "실험실",
+            "definition": "과학 실험을 하는 방이나 건물",
+            "english_def": "A room or building where scientists do experiments and research.",
+            "sentence": ""
+          },
+          {
+            "word": "Internet",
+            "pronunciation": "IN-ter-net",
+            "korean": "인터넷",
+            "definition": "전 세계 컴퓨터를 연결하는 거대한 네트워크",
+            "english_def": "A huge network that connects computers all over the world so people can share information.",
+            "sentence": ""
+          },
+          {
+            "word": "Security",
+            "pronunciation": "sih-KYOOR-ih-tee",
+            "korean": "보안",
+            "definition": "위험이나 위협으로부터 보호하는 것",
+            "english_def": "The ways used to keep people, information, or places safe from danger.",
+            "sentence": ""
+          },
+          {
+            "word": "Application",
+            "pronunciation": "ap-lih-KAY-shun",
+            "korean": "앱, 애플리케이션",
+            "definition": "스마트폰이나 컴퓨터에서 사용하는 프로그램",
+            "english_def": "A program on a phone or computer that helps you do something, like play games or send messages.",
+            "sentence": ""
+          },
+          {
+            "word": "Charging",
+            "pronunciation": "CHAR-jing",
+            "korean": "충전",
+            "definition": "배터리에 전기를 채우는 것",
+            "english_def": "Putting electricity into a battery so a device can work again.",
+            "sentence": ""
+          },
+          {
+            "word": "Website",
+            "pronunciation": "WEB-syt",
+            "korean": "웹사이트",
+            "definition": "인터넷에서 볼 수 있는 페이지들의 모음",
+            "english_def": "A place on the internet made up of pages that you can visit and read.",
+            "sentence": ""
+          },
+          {
+            "word": "Remote",
+            "pronunciation": "rih-MOHT",
+            "korean": "원격의, 리모컨",
+            "definition": "멀리서 조종하거나 접근하는 것",
+            "english_def": "Controlling or accessing something from a distance without being nearby.",
+            "sentence": ""
+          },
+          {
+            "word": "Space",
+            "pronunciation": "SPAYS",
+            "korean": "우주",
+            "definition": "지구 대기권 너머의 광활한 공간",
+            "english_def": "The huge area beyond the Earth's atmosphere where stars and planets are found.",
+            "sentence": ""
+          },
+          {
+            "word": "Gravity",
+            "pronunciation": "GRAV-ih-tee",
+            "korean": "중력",
+            "definition": "물체를 지구 중심 방향으로 끌어당기는 힘",
+            "english_def": "The force that pulls objects toward the ground and keeps us on Earth.",
+            "sentence": ""
+          },
+          {
+            "word": "Power",
+            "pronunciation": "POW-er",
+            "korean": "전력, 힘",
+            "definition": "기계나 기기를 작동시키는 에너지",
+            "english_def": "The energy that makes machines and devices work.",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
