@@ -2502,5 +2502,338 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학교_20260816_16NarrativeStorytell",
+    "source": "학교",
+    "date": "2026-08-16",
+    "lesson": "16. Narrative & Storytelling Nouns",
+    "groups": [
+      {
+        "name": "Narrative & Storytelling Nouns",
+        "words": [
+          {
+            "word": "Adventure",
+            "pronunciation": "ad-VEN-cher",
+            "korean": "모험",
+            "definition": "흥미롭고 위험할 수도 있는 특별한 경험이나 여행",
+            "english_def": "An exciting or unusual experience that often involves some risk or danger.",
+            "sentence": ""
+          },
+          {
+            "word": "Captain",
+            "pronunciation": "KAP-tin",
+            "korean": "선장, 대장",
+            "definition": "배나 팀을 이끄는 책임자",
+            "english_def": "A person who is in charge of a ship, aircraft, or a group of people.",
+            "sentence": ""
+          },
+          {
+            "word": "Author",
+            "pronunciation": "AW-ther",
+            "korean": "작가",
+            "definition": "책이나 글을 쓰는 사람",
+            "english_def": "A person who writes books, stories, or other texts.",
+            "sentence": ""
+          },
+          {
+            "word": "Illustrator",
+            "pronunciation": "IL-uh-stray-ter",
+            "korean": "삽화가",
+            "definition": "책이나 잡지에 그림을 그리는 사람",
+            "english_def": "A person who draws or creates pictures for books, magazines, or other publications.",
+            "sentence": ""
+          },
+          {
+            "word": "Message",
+            "pronunciation": "MES-ij",
+            "korean": "메시지, 전달하고자 하는 뜻",
+            "definition": "누군가에게 전달하는 말이나 글, 또는 이야기가 담고 있는 교훈",
+            "english_def": "A piece of information or a lesson that is communicated to someone, often through a story.",
+            "sentence": ""
+          },
+          {
+            "word": "Portrait",
+            "pronunciation": "POR-trit",
+            "korean": "초상화, 인물 묘사",
+            "definition": "사람의 얼굴이나 모습을 그린 그림 또는 글로 표현한 인물 묘사",
+            "english_def": "A painting, drawing, or description that shows what a person looks like.",
+            "sentence": ""
+          },
+          {
+            "word": "Soldier",
+            "pronunciation": "SOLE-jer",
+            "korean": "군인",
+            "definition": "군대에서 나라를 지키는 사람",
+            "english_def": "A person who serves in an army and is trained to fight.",
+            "sentence": ""
+          },
+          {
+            "word": "Victory",
+            "pronunciation": "VIK-tuh-ree",
+            "korean": "승리",
+            "definition": "경쟁이나 전투에서 이기는 것",
+            "english_def": "The act of winning a battle, competition, or difficult situation.",
+            "sentence": ""
+          },
+          {
+            "word": "Ability",
+            "pronunciation": "uh-BIL-ih-tee",
+            "korean": "능력",
+            "definition": "무언가를 할 수 있는 힘이나 재능",
+            "english_def": "The skill or power to do something well.",
+            "sentence": ""
+          },
+          {
+            "word": "Effort",
+            "pronunciation": "EF-ert",
+            "korean": "노력",
+            "definition": "목표를 이루기 위해 힘을 다해 애쓰는 것",
+            "english_def": "The energy and hard work you put into doing something.",
+            "sentence": ""
+          },
+          {
+            "word": "Audience",
+            "pronunciation": "AW-dee-ens",
+            "korean": "관객, 청중",
+            "definition": "공연이나 발표를 보거나 듣는 사람들의 무리",
+            "english_def": "A group of people who watch or listen to a performance, speech, or show.",
+            "sentence": ""
+          },
+          {
+            "word": "Champion",
+            "pronunciation": "CHAM-pee-un",
+            "korean": "챔피언, 우승자",
+            "definition": "대회나 경쟁에서 1등을 차지한 사람",
+            "english_def": "A person who has won a competition or is the best at something.",
+            "sentence": ""
+          },
+          {
+            "word": "Explorer",
+            "pronunciation": "eks-PLOR-er",
+            "korean": "탐험가",
+            "definition": "새로운 장소나 땅을 탐험하고 발견하는 사람",
+            "english_def": "A person who travels to unknown or unfamiliar places to discover new things.",
+            "sentence": ""
+          },
+          {
+            "word": "Journey",
+            "pronunciation": "JER-nee",
+            "korean": "여정, 여행",
+            "definition": "한 곳에서 다른 곳으로 이동하는 긴 여행",
+            "english_def": "A long trip from one place to another, often with challenges along the way.",
+            "sentence": ""
+          },
+          {
+            "word": "Mystery",
+            "pronunciation": "MIS-tuh-ree",
+            "korean": "미스터리, 수수께끼",
+            "definition": "아직 알 수 없거나 이해하기 어려운 신비로운 것",
+            "english_def": "Something that is difficult to explain or understand, often needing to be solved.",
+            "sentence": ""
+          },
+          {
+            "word": "Pursuit",
+            "pronunciation": "per-SYOOT",
+            "korean": "추구, 추격",
+            "definition": "무언가를 얻거나 따라잡기 위해 뒤쫓는 행위",
+            "english_def": "The act of chasing or trying to catch someone, or working hard to achieve a goal.",
+            "sentence": ""
+          },
+          {
+            "word": "Treasure",
+            "pronunciation": "TREZH-er",
+            "korean": "보물",
+            "definition": "금, 보석 등 매우 귀중하고 값진 것",
+            "english_def": "A collection of very valuable things such as gold, jewels, or precious objects.",
+            "sentence": ""
+          },
+          {
+            "word": "Voyage",
+            "pronunciation": "VOY-ij",
+            "korean": "항해, 긴 여행",
+            "definition": "배나 우주선을 타고 하는 긴 여행",
+            "english_def": "A long journey made by sea or in space.",
+            "sentence": ""
+          },
+          {
+            "word": "Bargain",
+            "pronunciation": "BAR-gin",
+            "korean": "흥정, 거래",
+            "definition": "두 사람이 서로 합의해서 이루어지는 거래나 약속",
+            "english_def": "An agreement between two people, or something bought at a lower price than usual.",
+            "sentence": ""
+          },
+          {
+            "word": "Future",
+            "pronunciation": "FYOO-cher",
+            "korean": "미래",
+            "definition": "아직 오지 않은 앞으로의 시간",
+            "english_def": "The time that has not happened yet; what will come after the present.",
+            "sentence": ""
+          },
+          {
+            "word": "Baggage",
+            "pronunciation": "BAG-ij",
+            "korean": "짐, 수하물",
+            "definition": "여행할 때 가지고 다니는 가방이나 짐",
+            "english_def": "The bags and suitcases that a person carries when travelling.",
+            "sentence": ""
+          },
+          {
+            "word": "Creature",
+            "pronunciation": "KREE-cher",
+            "korean": "생물, 피조물",
+            "definition": "살아있는 동물이나 상상 속의 존재",
+            "english_def": "A living being, especially an animal or an imaginary being in stories.",
+            "sentence": ""
+          },
+          {
+            "word": "Festival",
+            "pronunciation": "FES-tih-vul",
+            "korean": "축제",
+            "definition": "특별한 날을 기념하여 사람들이 함께 즐기는 행사",
+            "english_def": "A special event or celebration where people come together to enjoy music, food, or culture.",
+            "sentence": ""
+          },
+          {
+            "word": "Kingdom",
+            "pronunciation": "KING-dum",
+            "korean": "왕국",
+            "definition": "왕이나 여왕이 다스리는 나라",
+            "english_def": "A country or land that is ruled by a king or queen.",
+            "sentence": ""
+          },
+          {
+            "word": "Passage",
+            "pronunciation": "PAS-ij",
+            "korean": "통로, 구절",
+            "definition": "한 곳에서 다른 곳으로 이어지는 좁은 길, 또는 글의 한 부분",
+            "english_def": "A narrow path or corridor, or a section of a book or piece of writing.",
+            "sentence": ""
+          },
+          {
+            "word": "Riddle",
+            "pronunciation": "RID-ul",
+            "korean": "수수께끼",
+            "definition": "답을 맞혀야 하는 재미있는 질문이나 퍼즐",
+            "english_def": "A clever question or puzzle that has a tricky or surprising answer.",
+            "sentence": ""
+          },
+          {
+            "word": "Triumph",
+            "pronunciation": "TRY-umf",
+            "korean": "대승리, 큰 성공",
+            "definition": "어려움을 극복하고 이룬 큰 승리나 성공",
+            "english_def": "A great success or victory, especially after a difficult struggle.",
+            "sentence": ""
+          },
+          {
+            "word": "Witness",
+            "pronunciation": "WIT-nes",
+            "korean": "목격자, 증인",
+            "definition": "어떤 사건이나 일을 직접 보거나 경험한 사람",
+            "english_def": "A person who sees an event happen and can tell others about it.",
+            "sentence": ""
+          },
+          {
+            "word": "Comfort",
+            "pronunciation": "KUM-fert",
+            "korean": "위로, 편안함",
+            "definition": "슬프거나 힘든 사람을 달래주는 것, 또는 편안한 상태",
+            "english_def": "A feeling of ease and well-being, or the act of making someone feel better when they are sad.",
+            "sentence": ""
+          },
+          {
+            "word": "Island",
+            "pronunciation": "EYE-lund",
+            "korean": "섬",
+            "definition": "사방이 물로 둘러싸인 땅",
+            "english_def": "A piece of land that is completely surrounded by water.",
+            "sentence": ""
+          },
+          {
+            "word": "Boundary",
+            "pronunciation": "BOWN-duh-ree",
+            "korean": "경계",
+            "definition": "두 지역이나 두 가지 것을 나누는 선이나 한계",
+            "english_def": "A line or limit that marks where one area ends and another begins.",
+            "sentence": ""
+          },
+          {
+            "word": "Dialogue",
+            "pronunciation": "DY-uh-log",
+            "korean": "대화",
+            "definition": "두 명 이상이 나누는 말이나 이야기 속 대화 부분",
+            "english_def": "A conversation between two or more people, especially in a book or play.",
+            "sentence": ""
+          },
+          {
+            "word": "Fortune",
+            "pronunciation": "FOR-chun",
+            "korean": "행운, 운명, 재산",
+            "definition": "좋은 운이나 앞으로 어떻게 될지에 대한 운명, 또는 큰 재산",
+            "english_def": "Good luck, a large amount of money, or what is believed to happen to someone in the future.",
+            "sentence": ""
+          },
+          {
+            "word": "Lantern",
+            "pronunciation": "LAN-tern",
+            "korean": "등불, 랜턴",
+            "definition": "빛을 내는 휴대용 조명 기구",
+            "english_def": "A portable light with a protective frame, often used outdoors or in stories.",
+            "sentence": ""
+          },
+          {
+            "word": "Pilgrim",
+            "pronunciation": "PIL-grim",
+            "korean": "순례자",
+            "definition": "종교적인 이유로 성스러운 장소를 향해 긴 여행을 떠나는 사람",
+            "english_def": "A person who travels a long distance to a holy place for religious reasons.",
+            "sentence": ""
+          },
+          {
+            "word": "Shelter",
+            "pronunciation": "SHEL-ter",
+            "korean": "피난처, 보호소",
+            "definition": "비바람이나 위험으로부터 몸을 보호할 수 있는 장소",
+            "english_def": "A place that protects people or animals from bad weather or danger.",
+            "sentence": ""
+          },
+          {
+            "word": "Universe",
+            "pronunciation": "YOO-nih-vers",
+            "korean": "우주",
+            "definition": "모든 별, 행성, 은하계를 포함하는 광대한 공간 전체",
+            "english_def": "Everything that exists, including all the stars, planets, and galaxies in space.",
+            "sentence": ""
+          },
+          {
+            "word": "Youth",
+            "pronunciation": "YOOTH",
+            "korean": "청소년, 젊음",
+            "definition": "어리고 젊은 시절, 또는 젊은 사람들",
+            "english_def": "The time of life when a person is young, or a young person.",
+            "sentence": ""
+          },
+          {
+            "word": "Danger",
+            "pronunciation": "DAYN-jer",
+            "korean": "위험",
+            "definition": "다칠 수 있거나 나쁜 일이 생길 수 있는 상황",
+            "english_def": "The possibility of being harmed or that something bad might happen.",
+            "sentence": ""
+          },
+          {
+            "word": "Moment",
+            "pronunciation": "MOH-ment",
+            "korean": "순간",
+            "definition": "아주 짧은 시간의 한 지점",
+            "english_def": "A very short period of time, or a particular point in time.",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
