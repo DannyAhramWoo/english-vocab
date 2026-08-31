@@ -2835,5 +2835,322 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학원_20260831_3SchoolEducationDail",
+    "source": "학원",
+    "date": "2026-08-31",
+    "lesson": "3. School, Education & Daily Routine",
+    "groups": [
+      {
+        "name": "School, Education & Daily Routine",
+        "words": [
+          {
+            "word": "Attendance",
+            "pronunciation": "uh-TEN-dents",
+            "korean": "출석",
+            "definition": "학교나 수업에 나타나는 것",
+            "english_def": "The act of being present at school or a class.",
+            "sentence": ""
+          },
+          {
+            "word": "Assignment",
+            "pronunciation": "uh-SYN-ment",
+            "korean": "과제",
+            "definition": "선생님이 학생에게 내주는 숙제나 과제",
+            "english_def": "A piece of work given to students by a teacher to complete.",
+            "sentence": ""
+          },
+          {
+            "word": "Recess",
+            "pronunciation": "REE-ses",
+            "korean": "쉬는 시간",
+            "definition": "학교에서 수업 사이에 쉬는 짧은 시간",
+            "english_def": "A short break during the school day when students can rest or play.",
+            "sentence": ""
+          },
+          {
+            "word": "Uniform",
+            "pronunciation": "YOO-nuh-form",
+            "korean": "교복",
+            "definition": "학교에서 입는 정해진 옷",
+            "english_def": "A set of clothes that students wear to school every day.",
+            "sentence": ""
+          },
+          {
+            "word": "Timetable",
+            "pronunciation": "TYM-tay-bul",
+            "korean": "시간표",
+            "definition": "수업 시간과 과목이 정리된 표",
+            "english_def": "A chart that shows the schedule of classes and activities at school.",
+            "sentence": ""
+          },
+          {
+            "word": "Revision",
+            "pronunciation": "rih-VIH-zhun",
+            "korean": "복습",
+            "definition": "배운 내용을 다시 공부하는 것",
+            "english_def": "The process of studying or reviewing what you have already learned.",
+            "sentence": ""
+          },
+          {
+            "word": "Question",
+            "pronunciation": "KWES-chun",
+            "korean": "질문",
+            "definition": "답을 얻기 위해 묻는 것",
+            "english_def": "Something you ask when you want to find out information or an answer.",
+            "sentence": ""
+          },
+          {
+            "word": "Punctual",
+            "pronunciation": "PUNK-choo-ul",
+            "korean": "시간을 잘 지키는",
+            "definition": "약속된 시간에 정확히 도착하거나 행동하는",
+            "english_def": "Always arriving or doing things at the right time, without being late.",
+            "sentence": ""
+          },
+          {
+            "word": "Knowledge",
+            "pronunciation": "NOL-ij",
+            "korean": "지식",
+            "definition": "배움이나 경험을 통해 얻은 정보나 이해",
+            "english_def": "Information and understanding that you gain through learning or experience.",
+            "sentence": ""
+          },
+          {
+            "word": "Success",
+            "pronunciation": "suk-SES",
+            "korean": "성공",
+            "definition": "목표를 달성하거나 좋은 결과를 얻는 것",
+            "english_def": "Achieving a goal or getting a good result after working hard.",
+            "sentence": ""
+          },
+          {
+            "word": "Stationery",
+            "pronunciation": "STAY-shuh-neh-ree",
+            "korean": "문구류",
+            "definition": "펜, 연필, 종이 등 학용품",
+            "english_def": "Writing materials such as pens, pencils, and paper used at school.",
+            "sentence": ""
+          },
+          {
+            "word": "Dictionary",
+            "pronunciation": "DIK-shuh-neh-ree",
+            "korean": "사전",
+            "definition": "단어의 뜻과 발음을 알려주는 책",
+            "english_def": "A book that explains the meaning and pronunciation of words.",
+            "sentence": ""
+          },
+          {
+            "word": "Assembly",
+            "pronunciation": "uh-SEM-blee",
+            "korean": "조회",
+            "definition": "학교에서 학생들이 한자리에 모이는 시간",
+            "english_def": "A meeting where all students gather together in school, usually in the morning.",
+            "sentence": ""
+          },
+          {
+            "word": "Prefect",
+            "pronunciation": "PREE-fekt",
+            "korean": "학생 임원",
+            "definition": "학교에서 다른 학생들을 돕는 역할을 맡은 학생",
+            "english_def": "A senior student who is chosen to help maintain order and assist others at school.",
+            "sentence": ""
+          },
+          {
+            "word": "Schedule",
+            "pronunciation": "SKEJ-ool",
+            "korean": "일정",
+            "definition": "해야 할 일과 시간을 계획한 목록",
+            "english_def": "A plan that lists activities and the times they will happen.",
+            "sentence": ""
+          },
+          {
+            "word": "Exercise",
+            "pronunciation": "EK-ser-syz",
+            "korean": "연습 문제 / 운동",
+            "definition": "실력을 키우기 위한 연습이나 신체 활동",
+            "english_def": "A set of questions or activities done to practice a skill, or physical activity to keep fit.",
+            "sentence": ""
+          },
+          {
+            "word": "Answer",
+            "pronunciation": "AN-ser",
+            "korean": "답",
+            "definition": "질문이나 문제에 대한 반응이나 해결책",
+            "english_def": "A response or solution given to a question or problem.",
+            "sentence": ""
+          },
+          {
+            "word": "Absent",
+            "pronunciation": "AB-sent",
+            "korean": "결석한",
+            "definition": "학교나 수업에 나오지 않은",
+            "english_def": "Not present at school or a class when you are supposed to be there.",
+            "sentence": ""
+          },
+          {
+            "word": "Creative",
+            "pronunciation": "kree-AY-tiv",
+            "korean": "창의적인",
+            "definition": "새롭고 독창적인 아이디어를 생각해내는",
+            "english_def": "Having the ability to think of new and original ideas or things.",
+            "sentence": ""
+          },
+          {
+            "word": "Failure",
+            "pronunciation": "FAYL-yer",
+            "korean": "실패",
+            "definition": "목표를 이루지 못하거나 잘못되는 것",
+            "english_def": "When you do not succeed in achieving what you tried to do.",
+            "sentence": ""
+          },
+          {
+            "word": "Laboratory",
+            "pronunciation": "LAB-ruh-tor-ee",
+            "korean": "실험실",
+            "definition": "과학 실험을 하는 방",
+            "english_def": "A room in a school where students do science experiments.",
+            "sentence": ""
+          },
+          {
+            "word": "Principal",
+            "pronunciation": "PRIN-suh-pul",
+            "korean": "교장 선생님",
+            "definition": "학교를 책임지고 운영하는 사람",
+            "english_def": "The person who is in charge of and manages a school.",
+            "sentence": ""
+          },
+          {
+            "word": "Library",
+            "pronunciation": "LY-breh-ree",
+            "korean": "도서관",
+            "definition": "책을 빌리거나 읽을 수 있는 장소",
+            "english_def": "A place where books and other materials are kept for people to read or borrow.",
+            "sentence": ""
+          },
+          {
+            "word": "Monitor",
+            "pronunciation": "MON-ih-ter",
+            "korean": "반장 / 모니터",
+            "definition": "학급에서 친구들을 돕고 관리하는 학생",
+            "english_def": "A student who is chosen to help the teacher and keep order in the classroom.",
+            "sentence": ""
+          },
+          {
+            "word": "Lesson",
+            "pronunciation": "LES-un",
+            "korean": "수업",
+            "definition": "선생님이 학생들에게 가르치는 시간",
+            "english_def": "A period of time in which a teacher teaches students about a subject.",
+            "sentence": ""
+          },
+          {
+            "word": "Grammar",
+            "pronunciation": "GRAM-er",
+            "korean": "문법",
+            "definition": "언어를 올바르게 사용하기 위한 규칙",
+            "english_def": "The rules that explain how words and sentences should be used in a language.",
+            "sentence": ""
+          },
+          {
+            "word": "Correct",
+            "pronunciation": "kuh-REKT",
+            "korean": "맞는 / 올바른",
+            "definition": "실수나 오류가 없이 정확한",
+            "english_def": "Having no mistakes and being right or accurate.",
+            "sentence": ""
+          },
+          {
+            "word": "Present",
+            "pronunciation": "PREZ-ent",
+            "korean": "출석한 / 현재의",
+            "definition": "학교나 수업에 나와 있는",
+            "english_def": "Being in a place, such as at school, at a particular time.",
+            "sentence": ""
+          },
+          {
+            "word": "Smart",
+            "pronunciation": "SMART",
+            "korean": "똑똑한",
+            "definition": "빠르게 배우고 이해하는 능력이 있는",
+            "english_def": "Having the ability to learn and understand things quickly and easily.",
+            "sentence": ""
+          },
+          {
+            "word": "Literature",
+            "pronunciation": "LIT-er-uh-cher",
+            "korean": "문학",
+            "definition": "소설, 시, 희곡 등의 글로 된 예술",
+            "english_def": "Written works such as novels, poems, and plays that are considered to have artistic value.",
+            "sentence": ""
+          },
+          {
+            "word": "Discipline",
+            "pronunciation": "DIS-uh-plin",
+            "korean": "규율 / 훈련",
+            "definition": "규칙을 따르고 행동을 바르게 유지하는 것",
+            "english_def": "The practice of following rules and behaving in a controlled and correct way.",
+            "sentence": ""
+          },
+          {
+            "word": "Project",
+            "pronunciation": "PROJ-ekt",
+            "korean": "프로젝트 / 과제물",
+            "definition": "특정 주제에 대해 연구하거나 만드는 활동",
+            "english_def": "A piece of planned work or research on a particular topic done by students.",
+            "sentence": ""
+          },
+          {
+            "word": "Activity",
+            "pronunciation": "ak-TIV-ih-tee",
+            "korean": "활동",
+            "definition": "학교에서 하는 다양한 과제나 놀이",
+            "english_def": "Something that you do, especially a task or exercise done at school.",
+            "sentence": ""
+          },
+          {
+            "word": "Practice",
+            "pronunciation": "PRAK-tis",
+            "korean": "연습",
+            "definition": "실력을 키우기 위해 반복적으로 하는 것",
+            "english_def": "Doing something repeatedly in order to get better at it.",
+            "sentence": ""
+          },
+          {
+            "word": "Paragraph",
+            "pronunciation": "PAIR-uh-graf",
+            "korean": "단락",
+            "definition": "글에서 하나의 주제를 다루는 문장들의 묶음",
+            "english_def": "A group of sentences in a piece of writing that deals with one main idea.",
+            "sentence": ""
+          },
+          {
+            "word": "Mistake",
+            "pronunciation": "mih-STAYK",
+            "korean": "실수",
+            "definition": "잘못되거나 틀린 행동이나 답",
+            "english_def": "Something that is wrong or incorrect because of a lack of care or knowledge.",
+            "sentence": ""
+          },
+          {
+            "word": "Research",
+            "pronunciation": "REE-serch",
+            "korean": "연구 / 조사",
+            "definition": "특정 주제에 대해 정보를 모으고 공부하는 것",
+            "english_def": "The careful study and investigation of a subject to find out more information.",
+            "sentence": ""
+          },
+          {
+            "word": "Achievement",
+            "pronunciation": "uh-CHEEV-ment",
+            "korean": "성취",
+            "definition": "노력해서 이루어낸 좋은 결과",
+            "english_def": "Something important and impressive that you have successfully done through hard work.",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
