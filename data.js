@@ -3152,5 +3152,338 @@ window.VOCAB_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "학원_20260906_17DescriptiveAdjecti",
+    "source": "학원",
+    "date": "2026-09-06",
+    "lesson": "17. Descriptive Adjectives (Sight & Sound)",
+    "groups": [
+      {
+        "name": "Descriptive Adjectives (Sight & Sound)",
+        "words": [
+          {
+            "word": "Ancient",
+            "pronunciation": "AYN-shent",
+            "korean": "고대의, 오래된",
+            "definition": "아주 오래전부터 존재해 온 것을 나타내는 말",
+            "english_def": "Something that is very, very old and has existed for a long time.",
+            "sentence": ""
+          },
+          {
+            "word": "Elegant",
+            "pronunciation": "EL-ih-gent",
+            "korean": "우아한, 세련된",
+            "definition": "모양이나 움직임이 아름답고 품위 있는",
+            "english_def": "Looking graceful, stylish, and beautiful in appearance or movement.",
+            "sentence": ""
+          },
+          {
+            "word": "Massive",
+            "pronunciation": "MAS-iv",
+            "korean": "거대한, 엄청난",
+            "definition": "크기나 양이 매우 크고 무거운",
+            "english_def": "Something that is very large and heavy in size.",
+            "sentence": ""
+          },
+          {
+            "word": "Shaggy",
+            "pronunciation": "SHAG-ee",
+            "korean": "텁수룩한, 덥수룩한",
+            "definition": "털이나 머리카락이 길고 헝클어진 모양",
+            "english_def": "Having long, messy, and untidy hair or fur.",
+            "sentence": ""
+          },
+          {
+            "word": "Sparkling",
+            "pronunciation": "SPAR-kling",
+            "korean": "반짝이는, 빛나는",
+            "definition": "빛을 받아 반짝반짝 빛나는 모양",
+            "english_def": "Shining brightly with small flashes of light.",
+            "sentence": ""
+          },
+          {
+            "word": "Tiny",
+            "pronunciation": "TY-nee",
+            "korean": "아주 작은",
+            "definition": "크기가 매우 작은",
+            "english_def": "Something that is very small in size.",
+            "sentence": ""
+          },
+          {
+            "word": "Awful",
+            "pronunciation": "AW-ful",
+            "korean": "끔찍한, 형편없는",
+            "definition": "매우 나쁘거나 불쾌한",
+            "english_def": "Something that is very bad, unpleasant, or terrible.",
+            "sentence": ""
+          },
+          {
+            "word": "Filthy",
+            "pronunciation": "FIL-thee",
+            "korean": "더러운, 지저분한",
+            "definition": "매우 더럽고 불결한",
+            "english_def": "Extremely dirty and unclean.",
+            "sentence": ""
+          },
+          {
+            "word": "Noisy",
+            "pronunciation": "NOY-zee",
+            "korean": "시끄러운, 떠들썩한",
+            "definition": "소리가 크고 시끄러운",
+            "english_def": "Making a lot of loud and unpleasant sounds.",
+            "sentence": ""
+          },
+          {
+            "word": "Ugly",
+            "pronunciation": "UG-lee",
+            "korean": "못생긴, 보기 흉한",
+            "definition": "외모나 모양이 보기 좋지 않은",
+            "english_def": "Something that is unpleasant to look at and not attractive.",
+            "sentence": ""
+          },
+          {
+            "word": "Bitter",
+            "pronunciation": "BIT-er",
+            "korean": "쓴, 씁쓸한",
+            "definition": "맛이 쓰거나 매우 불쾌한 느낌",
+            "english_def": "Having a sharp, unpleasant taste that is not sweet.",
+            "sentence": ""
+          },
+          {
+            "word": "Fragile",
+            "pronunciation": "FRAJ-ul",
+            "korean": "깨지기 쉬운, 연약한",
+            "definition": "쉽게 부서지거나 손상될 수 있는",
+            "english_def": "Something that is easily broken or damaged and must be handled carefully.",
+            "sentence": ""
+          },
+          {
+            "word": "Narrow",
+            "pronunciation": "NAR-oh",
+            "korean": "좁은",
+            "definition": "폭이 좁고 넓지 않은",
+            "english_def": "Something that has a small width and is not wide.",
+            "sentence": ""
+          },
+          {
+            "word": "Shallow",
+            "pronunciation": "SHAL-oh",
+            "korean": "얕은",
+            "definition": "깊이가 얕아서 깊지 않은",
+            "english_def": "Not deep; having only a small distance from the top to the bottom.",
+            "sentence": ""
+          },
+          {
+            "word": "Spotted",
+            "pronunciation": "SPOT-ed",
+            "korean": "점무늬가 있는",
+            "definition": "표면에 점이나 반점이 있는",
+            "english_def": "Having small round marks or dots on the surface.",
+            "sentence": ""
+          },
+          {
+            "word": "Uneven",
+            "pronunciation": "un-EE-ven",
+            "korean": "울퉁불퉁한, 고르지 않은",
+            "definition": "표면이 평평하지 않고 고르지 않은",
+            "english_def": "Not flat or smooth; having a surface that is rough and irregular.",
+            "sentence": ""
+          },
+          {
+            "word": "Breezy",
+            "pronunciation": "BREE-zee",
+            "korean": "바람이 솔솔 부는",
+            "definition": "가볍고 상쾌한 바람이 부는",
+            "english_def": "Having a light and pleasant wind blowing.",
+            "sentence": ""
+          },
+          {
+            "word": "Fluffy",
+            "pronunciation": "FLUF-ee",
+            "korean": "푹신한, 솜털 같은",
+            "definition": "부드럽고 가볍게 부풀어 오른 느낌",
+            "english_def": "Something that is soft, light, and covered with soft fur or material.",
+            "sentence": ""
+          },
+          {
+            "word": "Prickly",
+            "pronunciation": "PRIK-lee",
+            "korean": "가시가 있는, 따끔따끔한",
+            "definition": "표면에 뾰족한 가시가 많아서 찌르는 느낌",
+            "english_def": "Having sharp points or spines that can poke or hurt you.",
+            "sentence": ""
+          },
+          {
+            "word": "Plastic",
+            "pronunciation": "PLAS-tik",
+            "korean": "플라스틱으로 만들어진",
+            "definition": "플라스틱 재질로 되어 있는",
+            "english_def": "Made of plastic, a light and strong synthetic material.",
+            "sentence": ""
+          },
+          {
+            "word": "Bumpy",
+            "pronunciation": "BUM-pee",
+            "korean": "울퉁불퉁한, 덜컹거리는",
+            "definition": "표면이 고르지 않고 울퉁불퉁한",
+            "english_def": "Having a rough surface with many small bumps that makes movement uncomfortable.",
+            "sentence": ""
+          },
+          {
+            "word": "Gigantic",
+            "pronunciation": "jy-GAN-tik",
+            "korean": "거대한, 엄청나게 큰",
+            "definition": "보통보다 훨씬 크고 거대한",
+            "english_def": "Extremely large in size, much bigger than normal.",
+            "sentence": ""
+          },
+          {
+            "word": "Precious",
+            "pronunciation": "PRESH-us",
+            "korean": "귀중한, 소중한",
+            "definition": "매우 가치 있고 소중한",
+            "english_def": "Something that is very valuable and important to you.",
+            "sentence": ""
+          },
+          {
+            "word": "Slippery",
+            "pronunciation": "SLIP-er-ee",
+            "korean": "미끄러운",
+            "definition": "표면이 미끄러워서 잘 넘어질 수 있는",
+            "english_def": "Having a surface that is smooth and wet, making it easy to slide or fall.",
+            "sentence": ""
+          },
+          {
+            "word": "Square",
+            "pronunciation": "SKWAIR",
+            "korean": "정사각형의",
+            "definition": "네 변의 길이가 같고 네 각이 직각인 모양",
+            "english_def": "Having four equal sides and four right angles, like a box shape.",
+            "sentence": ""
+          },
+          {
+            "word": "Wooden",
+            "pronunciation": "WUD-en",
+            "korean": "나무로 만든",
+            "definition": "나무 재질로 만들어진",
+            "english_def": "Made of wood from trees.",
+            "sentence": ""
+          },
+          {
+            "word": "Chilly",
+            "pronunciation": "CHIL-ee",
+            "korean": "쌀쌀한, 차가운",
+            "definition": "날씨나 온도가 약간 춥고 차가운",
+            "english_def": "Feeling cold and uncomfortable, but not extremely cold.",
+            "sentence": ""
+          },
+          {
+            "word": "Glaring",
+            "pronunciation": "GLAIR-ing",
+            "korean": "눈부신, 빛이 강렬한",
+            "definition": "빛이 너무 강해서 눈이 부신",
+            "english_def": "Shining with a very bright and harsh light that hurts your eyes.",
+            "sentence": ""
+          },
+          {
+            "word": "Rotten",
+            "pronunciation": "ROT-en",
+            "korean": "썩은, 부패한",
+            "definition": "음식이나 물질이 썩어서 상한",
+            "english_def": "Food or material that has decayed and is no longer good or fresh.",
+            "sentence": ""
+          },
+          {
+            "word": "Metal",
+            "pronunciation": "MET-ul",
+            "korean": "금속으로 만든",
+            "definition": "금속 재질로 되어 있는",
+            "english_def": "Made of metal, a hard and shiny material like iron or steel.",
+            "sentence": ""
+          },
+          {
+            "word": "Crooked",
+            "pronunciation": "KRUK-ed",
+            "korean": "구부러진, 비뚤어진",
+            "definition": "곧지 않고 구부러지거나 비뚤어진 모양",
+            "english_def": "Not straight; bent or twisted to one side.",
+            "sentence": ""
+          },
+          {
+            "word": "Hollow",
+            "pronunciation": "HOL-oh",
+            "korean": "속이 빈, 텅 빈",
+            "definition": "내부가 비어 있는",
+            "english_def": "Having an empty space inside; not solid.",
+            "sentence": ""
+          },
+          {
+            "word": "Rough",
+            "pronunciation": "RUF",
+            "korean": "거친, 울퉁불퉁한",
+            "definition": "표면이 매끄럽지 않고 거친",
+            "english_def": "Having a surface that is not smooth and feels uneven when you touch it.",
+            "sentence": ""
+          },
+          {
+            "word": "Smooth",
+            "pronunciation": "SMOODH",
+            "korean": "매끄러운, 부드러운",
+            "definition": "표면이 평평하고 매끄러운",
+            "english_def": "Having a flat and even surface with no bumps or rough parts.",
+            "sentence": ""
+          },
+          {
+            "word": "Steep",
+            "pronunciation": "STEEP",
+            "korean": "가파른",
+            "definition": "경사가 심하고 급격하게 기울어진",
+            "english_def": "Having a sharp slope that goes up or down at a very sharp angle.",
+            "sentence": ""
+          },
+          {
+            "word": "Yellowish",
+            "pronunciation": "YEL-oh-ish",
+            "korean": "노르스름한, 약간 노란",
+            "definition": "완전히 노랗지는 않지만 약간 노란 빛을 띠는",
+            "english_def": "Having a slight yellow color, not completely yellow but close to it.",
+            "sentence": ""
+          },
+          {
+            "word": "Dusty",
+            "pronunciation": "DUS-tee",
+            "korean": "먼지가 많은, 먼지 낀",
+            "definition": "표면에 먼지가 많이 쌓여 있는",
+            "english_def": "Covered with a layer of dust; full of tiny particles of dirt.",
+            "sentence": ""
+          },
+          {
+            "word": "Itchy",
+            "pronunciation": "ICH-ee",
+            "korean": "가려운",
+            "definition": "피부가 가렵고 긁고 싶은 느낌",
+            "english_def": "Causing an uncomfortable feeling on the skin that makes you want to scratch.",
+            "sentence": ""
+          },
+          {
+            "word": "Sticky",
+            "pronunciation": "STIK-ee",
+            "korean": "끈적끈적한",
+            "definition": "손에 달라붙는 느낌처럼 끈적한",
+            "english_def": "Something that tends to stick to things and feels gluey when you touch it.",
+            "sentence": ""
+          },
+          {
+            "word": "Glass",
+            "pronunciation": "GLAS",
+            "korean": "유리로 만든",
+            "definition": "유리 재질로 되어 있는",
+            "english_def": "Made of glass, a hard and transparent material that you can see through.",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
   }
 ];
